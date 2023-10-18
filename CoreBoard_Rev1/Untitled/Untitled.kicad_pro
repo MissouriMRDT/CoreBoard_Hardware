@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.9464,
-          "height": 2.9464,
-          "width": 2.9464
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,16 +45,10 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,20 +165,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.127,
-        0.254,
-        0.381,
-        0.508,
-        1.27
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -410,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CoreBoard_Rev1.kicad_pro",
+    "filename": "Untitled.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -485,11 +467,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "33647808-cf2c-4b1c-bf2f-58fa6408b099",
-      ""
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
