@@ -6119,7 +6119,7 @@
     (property "Value" "TSR_1-2450" (at 124.46 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" (at 124.46 44.45 0)
+    (property "Footprint" "MRDT_Devices:SHHD003A0A-SRZ" (at 124.46 44.45 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.tracopower.com/products/tsr1.pdf" (at 124.46 40.64 0)
@@ -6214,11 +6214,11 @@
     (property "Datasheet" "" (at 21.59 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 42283ea0-bf2e-488e-878f-fdb9fed49ee5))
+    (pin "1" (uuid 42283ea0-bf2e-488e-878f-fdb9fed49ee6))
     (pin "2" (uuid 230d9521-7b37-4a61-b39a-b2a6c677da68))
     (pin "3" (uuid 63353f63-ff6a-4269-8a2f-22c9f811d3d0))
     (pin "4" (uuid 398cb1e8-4290-438f-b4d2-5ff73831e367))
-    (pin "1" (uuid 42283ea0-bf2e-488e-878f-fdb9fed49ee5))
+    (pin "1" (uuid 42283ea0-bf2e-488e-878f-fdb9fed49ee6))
     (instances
       (project "calebfryer"
         (path "/31d6fa18-14b3-4b4d-a7de-de5f9dcb2742"
@@ -8004,11 +8004,11 @@
     (property "Datasheet" "" (at 21.59 52.07 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 82aef3b0-04dc-4883-9752-24427938dcfe))
+    (pin "1" (uuid 82aef3b0-04dc-4883-9752-24427938dcff))
     (pin "2" (uuid 872ab208-dd88-4635-a4f6-54f83967738d))
     (pin "3" (uuid b63aa096-cc22-4c50-85eb-849caa3e5d0e))
     (pin "4" (uuid f5196c44-a420-4c51-92c0-1636a2bfe57b))
-    (pin "1" (uuid 82aef3b0-04dc-4883-9752-24427938dcfe))
+    (pin "1" (uuid 82aef3b0-04dc-4883-9752-24427938dcff))
     (instances
       (project "calebfryer"
         (path "/31d6fa18-14b3-4b4d-a7de-de5f9dcb2742"
