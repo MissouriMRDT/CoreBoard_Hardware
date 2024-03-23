@@ -4129,8 +4129,8 @@
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid 312100ce-c397-45e2-b70b-82beed87cc5f)
   )
-  (text "exact changes from rev1:\n\nmoved FR_TX to 20\nmoved FR_RX to 21\n\nmoved MR_TX to 17\nmoved MR_RX to 16\n\nmoved BR_TX to 14\nmoved BR_RX to 15\n\nmoved FL_TX to 29\nmoved FL_RX to 28\n\nmoved ML_TX to 24\nmoved ML_RX to 25\n\nmoved BL_TX to 35\nmoved BL_RX to 34\n\nmoved Out2 from 34 to 41\n\nmoved ServoPWM1 to 0\nmoved ServoPWM2 to 1\nmoved ServoPWM3 to 2\nmoved ServoPWM4 to 3\nmoved ServoPWM5 to 4\nmoved ServoPWM6 to 5\nmoved ServoPWM7 to 6\nmoved ServoPWM8 to 7\nmoved ServoPWM9 to 8\n\n"
-    (at 120.65 279.4 0)
+  (text "exact changes from rev1:\n\nmoved FR_TX to 20\nmoved FR_RX to 21\n\nmoved MR_TX to 17\nmoved MR_RX to 16\n\nmoved BR_TX to 14\nmoved BR_RX to 15\n\nmoved FL_TX to 29\nmoved FL_RX to 28\n\nmoved ML_TX to 24\nmoved ML_RX to 25\n\nmoved BL_TX to 35\nmoved BL_RX to 34\n\nmoved Out0\nmoved Out1\nmoved Out2 from 34 to 41\n\nmoved ServoPWM1 to 0\nmoved ServoPWM2 to 1\nmoved ServoPWM3 to 2\nmoved ServoPWM4 to 3\nmoved ServoPWM5 to 4\nmoved ServoPWM6 to 5\nmoved ServoPWM7 to 6\nmoved ServoPWM8 to 7\nmoved ServoPWM9 to 8\n\n"
+    (at 121.92 281.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 42af2025-43c4-4741-b445-b185361aa9b6)
   )
