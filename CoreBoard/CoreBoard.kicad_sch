@@ -20582,7 +20582,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 224.7963 95.25 90)
 			(effects
 				(font
@@ -20717,7 +20717,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 240.0363 95.25 90)
 			(effects
 				(font
