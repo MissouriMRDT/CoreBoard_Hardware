@@ -10983,7 +10983,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 151.13) (xy 304.8 157.48)
+			(xy 304.8 154.94) (xy 304.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -11921,9 +11921,9 @@
 		)
 		(uuid "4cc73df2-ce67-4e75-a7b1-57475ce06fad")
 	)
-	(text "Motors Dip Switch"
+	(text "Motor Switches & Button"
 		(exclude_from_sim no)
-		(at 352.552 144.272 0)
+		(at 355.092 144.272 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -14665,7 +14665,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 304.8 151.13 0)
+		(at 304.8 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14674,7 +14674,7 @@
 		(fields_autoplaced yes)
 		(uuid "0966d40d-ccd4-4191-8503-099752cae101")
 		(property "Reference" "#PWR012"
-			(at 304.8 154.94 0)
+			(at 304.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14683,7 +14683,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 304.8 146.05 0)
+			(at 304.8 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14691,7 +14691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 151.13 0)
+			(at 304.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14700,7 +14700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 151.13 0)
+			(at 304.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14709,7 +14709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 304.8 151.13 0)
+			(at 304.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
