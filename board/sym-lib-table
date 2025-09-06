@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CoreBoard")(type "KiCad")(uri "/home/jessedeuel/Documents/MRDT/CoreBoard_Hardware/lib/Symbols/CoreBoard.kicad_sym")(options "")(descr ""))
+)
