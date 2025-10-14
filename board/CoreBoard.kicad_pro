@@ -618,6 +618,38 @@
     [
       "044aaf9e-f771-40cc-9be3-702621321f68",
       "Root"
+    ],
+    [
+      "bed1aa92-c39d-45d0-9b54-3a75fbffb37b",
+      "Test Buttons"
+    ],
+    [
+      "6adb53bb-09b4-436b-a1bf-bacbe5a69a87",
+      "Selection LEDs"
+    ],
+    [
+      "e24e2390-8ccf-4982-9535-0d66b2e1c064",
+      "Teensy"
+    ],
+    [
+      "57e020f8-1646-4067-ba97-4c1dc8d311da",
+      "Power"
+    ],
+    [
+      "dbf89e1d-f490-429e-afa9-0c11320fe82e",
+      "Gimbal Servos"
+    ],
+    [
+      "f5e9dc2b-e8b0-4165-b60d-728d67e33078",
+      "Motor VESCs"
+    ],
+    [
+      "2c1cc9bc-4a5b-49f7-a533-8327e4ca24b6",
+      "Accelerometer"
+    ],
+    [
+      "e270813c-bc87-4163-b108-0e7c5ed23f54",
+      "Lighting"
     ]
   ],
   "text_variables": {}
