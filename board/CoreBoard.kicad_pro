@@ -451,8 +451,7 @@
       "CoreBoard"
     ],
     "pinned_symbol_libs": [
-      "CoreBoard",
-      "2026_CoreBoard_Hardware"
+      "CoreBoard"
     ]
   },
   "meta": {
@@ -650,6 +649,10 @@
     [
       "e270813c-bc87-4163-b108-0e7c5ed23f54",
       "Lighting"
+    ],
+    [
+      "ad654c6d-13ce-43e4-981c-d13f5905f2f3",
+      "Temp Sensor"
     ]
   ],
   "text_variables": {}

@@ -3661,7 +3661,7 @@
 		)
 		(uuid "34d42c40-004a-4ba7-b510-6d3f2ef37f82")
 	)
-	(hierarchical_label "AccSDA"
+	(hierarchical_label "SNSR_SDA"
 		(shape output)
 		(at 71.12 134.62 180)
 		(effects
@@ -3848,7 +3848,7 @@
 		)
 		(uuid "8cfc2f8b-2bb3-43c4-a566-e2f8113a08bd")
 	)
-	(hierarchical_label "AccSCL"
+	(hierarchical_label "SNSR_SCL"
 		(shape output)
 		(at 71.12 137.16 180)
 		(effects

@@ -126,6 +126,18 @@
 		(uuid "7d709771-f0e2-4891-880f-79adf425847a")
 	)
 	(junction
+		(at 170.18 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4435bf-45f2-48bf-aa77-31319253cf49")
+	)
+	(junction
+		(at 172.72 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbdc0b3e-f653-47b5-93af-4efead9b59b9")
+	)
+	(junction
 		(at 151.13 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -207,7 +219,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 176.53 99.06)
+			(xy 167.64 99.06) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
@@ -234,6 +246,16 @@
 			(type default)
 		)
 		(uuid "2461cd99-231b-4253-a800-1adcc3f23ab8")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 176.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cf3363-1874-4eb8-838a-ebf55dc7c831")
 	)
 	(wire
 		(pts
@@ -354,6 +376,16 @@
 			(type default)
 		)
 		(uuid "53490712-2d3d-47af-acd7-72588b5f4a66")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 172.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5711b50a-3d9c-4a3d-918a-2a319b46bf5a")
 	)
 	(wire
 		(pts
@@ -507,6 +539,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 96.52) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1b0a64-6ae3-42f5-aa5a-75ff49f10c4e")
+	)
+	(wire
+		(pts
 			(xy 143.51 175.26) (xy 153.67 175.26)
 		)
 		(stroke
@@ -554,6 +596,16 @@
 			(type default)
 		)
 		(uuid "ab7bfe60-5bc2-4ce8-8a72-1069f1182168")
+	)
+	(wire
+		(pts
+			(xy 167.64 119.38) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d57ffd-95be-4345-b352-13b79af7efa0")
 	)
 	(wire
 		(pts
@@ -627,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 176.53 96.52)
+			(xy 167.64 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -657,6 +709,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 124.46) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db63bc07-f5b5-4c21-a661-e2ebcef59a8b")
+	)
+	(wire
+		(pts
 			(xy 148.59 170.18) (xy 148.59 210.82)
 		)
 		(stroke
@@ -674,6 +736,16 @@
 			(type default)
 		)
 		(uuid "eda6103d-ce67-4a01-aae3-9fa309fe2c27")
+	)
+	(wire
+		(pts
+			(xy 170.18 119.38) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6dadfd-dd0f-457c-86b2-e02904b8ca6a")
 	)
 	(wire
 		(pts
@@ -1204,6 +1276,68 @@
 		)
 	)
 	(sheet
+		(at 138.43 113.03)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad654c6d-13ce-43e4-981c-d13f5905f2f3")
+		(property "Sheetname" "Temp Sensor"
+			(at 138.43 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TempSensor.kicad_sch"
+			(at 138.43 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TEMP_SCL" input
+			(at 167.64 119.38 0)
+			(uuid "e4133e03-dcba-4d57-8523-58e082819f34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP_SDA" input
+			(at 167.64 124.46 0)
+			(uuid "7c2b4443-6179-4ded-acba-e8ff912c0bdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 91.44 149.86)
 		(size 52.07 49.53)
 		(exclude_from_sim no)
@@ -1537,26 +1671,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(pin "AccSCL" output
-			(at 176.53 96.52 180)
-			(uuid "e39401ac-43f9-4185-9e41-05d135f73330")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "AccSDA" output
-			(at 176.53 99.06 180)
-			(uuid "c621a748-691b-4abf-ba6c-7121de3c64dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "BackPan" output
@@ -1897,6 +2011,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SNSR_SCL" output
+			(at 176.53 96.52 180)
+			(uuid "d944036a-3a03-4127-a275-46c669503ea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SNSR_SDA" output
+			(at 176.53 99.06 180)
+			(uuid "08095cdc-4905-43c0-a65c-a3b3418618f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
