@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "40178c35-da0a-4271-95b7-c1c49f1b429a")
+	(uuid "ad35e371-6e00-4256-8350-7eb87d1b1311")
 	(paper "A4")
 	(lib_symbols
 		(symbol "CoreBoard:MCP9808-E_MS"

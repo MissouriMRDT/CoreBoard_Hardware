@@ -5,6 +5,250 @@
 	(uuid "e7fac46c-7014-40ea-adb2-aa3759b58b4e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CoreBoard:94HBB08T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "94HBB08T"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIPS762W56P254L991H597Q6N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000148482.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary DIP Switch Extended Actuator 8 positions Rotary Switch, Rotary"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.974"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Grayhill"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "94HBB08T"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "706-94HBB08T"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Grayhill/94HBB08T?qs=ls7QRyWmRk67N6Qq31S%252BcA%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "94HBB08T"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/94hbb08t/grayhill"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "94HBB08T_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "C_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "C_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -914,6 +1158,12 @@
 		(uuid "33ed9cb4-4f92-4f3e-b4ba-a04fce3c9210")
 	)
 	(junction
+		(at 52.07 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b87bad4-5907-4ecd-a77b-34173deefce0")
+	)
+	(junction
 		(at 219.71 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1002,6 +1252,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc3d8f26-1c57-4281-91ce-345487ff322e")
+	)
+	(no_connect
+		(at 88.9 52.07)
+		(uuid "018ce70a-ef08-45cc-bc41-d855255110fd")
 	)
 	(wire
 		(pts
@@ -1215,6 +1469,26 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 43.18) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bac48d5-e9d9-4043-a00e-b9b2d6fd34e4")
+	)
+	(wire
+		(pts
+			(xy 59.69 57.15) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c691ec4-02be-41a7-ba54-5d70fe8c0650")
+	)
+	(wire
+		(pts
 			(xy 231.14 106.68) (xy 219.71 106.68)
 		)
 		(stroke
@@ -1345,6 +1619,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66734a61-e35e-4939-bbbf-55b66c1009c6")
+	)
+	(wire
+		(pts
 			(xy 213.36 115.57) (xy 231.14 115.57)
 		)
 		(stroke
@@ -1362,6 +1646,16 @@
 			(type default)
 		)
 		(uuid "6ae3c4a8-bb7d-439a-8d91-8f570086a9bd")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6db09d-1616-45f3-8554-6bd2a0f1f1c7")
 	)
 	(wire
 		(pts
@@ -1475,6 +1769,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 54.61) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8412195d-86a1-4ea7-8b39-001eab424b2b")
+	)
+	(wire
+		(pts
 			(xy 119.38 93.98) (xy 121.92 93.98)
 		)
 		(stroke
@@ -1502,6 +1806,16 @@
 			(type default)
 		)
 		(uuid "9146a6e6-37c6-4f17-a107-4bd6449ac17f")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91debaab-5cd4-480f-8187-914eaba4feed")
 	)
 	(wire
 		(pts
@@ -1575,6 +1889,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 52.07) (xy 63.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf0f4c3-f412-48b0-b3ca-7aa455f40dd3")
+	)
+	(wire
+		(pts
 			(xy 219.71 78.74) (xy 219.71 92.71)
 		)
 		(stroke
@@ -1635,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 43.18) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1803d34-e33b-420f-b4b9-5a1138205004")
+	)
+	(wire
+		(pts
 			(xy 119.38 67.31) (xy 119.38 69.85)
 		)
 		(stroke
@@ -1642,6 +1976,16 @@
 			(type default)
 		)
 		(uuid "d40550a3-d6b7-4d5f-8459-d8e95ab684a9")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 91.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daff8e1d-bc03-4a28-b4e3-a447bbbe7f6e")
 	)
 	(wire
 		(pts
@@ -1845,14 +2189,14 @@
 		)
 		(uuid "18cb8542-692d-4037-8662-72c11ded64ae")
 	)
-	(hierarchical_label "RB0"
+	(hierarchical_label "RTRY1"
 		(shape output)
-		(at 46.99 52.07 0)
+		(at 59.69 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3f7aac61-9917-405e-9984-58865d11f545")
 	)
@@ -1911,14 +2255,14 @@
 		)
 		(uuid "9e39db6f-c990-4256-a1ac-8466f0f85e07")
 	)
-	(hierarchical_label "RB1"
+	(hierarchical_label "RTRY4"
 		(shape output)
-		(at 46.99 55.88 0)
+		(at 59.69 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c91efee8-35e7-413e-80b0-a3da881affd0")
 	)
@@ -1944,9 +2288,9 @@
 		)
 		(uuid "e19cf418-46a3-4755-be2a-e3ed4098c446")
 	)
-	(hierarchical_label "RB2"
+	(hierarchical_label "RTRY2"
 		(shape output)
-		(at 46.99 59.69 0)
+		(at 92.71 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2095,6 +2439,224 @@
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/bed1aa92-c39d-45d0-9b54-3a75fbffb37b"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoreBoard:94HBB08T")
+		(at 63.5 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f2dcb84-9c9f-4344-9578-25c83b5ec50e")
+		(property "Reference" "S1"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "94HBB08T"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIPS762W56P254L991H597Q6N"
+			(at 85.09 146.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000148482.pdf"
+			(at 85.09 246.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary DIP Switch Extended Actuator 8 positions Rotary Switch, Rotary"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.974"
+			(at 85.09 446.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Grayhill"
+			(at 85.09 546.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "94HBB08T"
+			(at 85.09 646.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "706-94HBB08T"
+			(at 85.09 746.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Grayhill/94HBB08T?qs=ls7QRyWmRk67N6Qq31S%252BcA%3D%3D"
+			(at 85.09 846.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "94HBB08T"
+			(at 85.09 946.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/94hbb08t/grayhill"
+			(at 85.09 1046.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "77424250-1e88-4c33-8cdd-050ff5c7f8a2")
+		)
+		(pin "1"
+			(uuid "becf8641-366d-4674-af40-fec25a87ffd0")
+		)
+		(pin "6"
+			(uuid "cd6853a7-9985-444d-895c-832966bfcb58")
+		)
+		(pin "3"
+			(uuid "454fa674-d01f-433e-859e-f6ce98e30011")
+		)
+		(pin "4"
+			(uuid "1847e035-cfc6-4f93-b09c-975199203c02")
+		)
+		(pin "2"
+			(uuid "e4f080ad-ca97-4a2e-881e-58c05ced3f0d")
+		)
+		(instances
+			(project ""
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/bed1aa92-c39d-45d0-9b54-3a75fbffb37b"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "325396a8-10d8-421f-b7db-038c4f50d638")
+		(property "Reference" "#PWR039"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "232cf346-838d-41c4-8424-b7e32510815b")
+		)
+		(instances
+			(project ""
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/bed1aa92-c39d-45d0-9b54-3a75fbffb37b"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)

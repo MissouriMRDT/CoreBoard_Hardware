@@ -1217,36 +1217,6 @@
 				(justify right)
 			)
 		)
-		(pin "RB0" input
-			(at 148.59 210.82 90)
-			(uuid "64b01af8-cfdc-4889-8412-bad04ab4a275")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RB1" input
-			(at 151.13 210.82 90)
-			(uuid "d3673a55-55c0-481a-9258-d4e96505504d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RB2" input
-			(at 153.67 210.82 90)
-			(uuid "57bb7a7f-fcbe-409a-b253-79ab47a5555e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "FL_EN" input
 			(at 160.02 210.82 90)
 			(uuid "384b2186-de9f-48ce-a2c7-d72948a7c5fb")
@@ -1260,6 +1230,36 @@
 		(pin "FR_EN" input
 			(at 167.64 210.82 90)
 			(uuid "6d2e41ac-47b5-4340-a47f-ef68661e726e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RTRY1" input
+			(at 148.59 210.82 90)
+			(uuid "774cc5f4-75fa-4b63-82e2-aa4fefa4a636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RTRY2" input
+			(at 151.13 210.82 90)
+			(uuid "19a1e000-a27b-4235-a53c-b069c9ba9f1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RTRY4" input
+			(at 153.67 210.82 90)
+			(uuid "67533ed0-58b7-4284-93ce-66cd5cce9e73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1461,7 @@
 				(justify right)
 			)
 		)
-		(pin "RB0" output
+		(pin "RTRY1" output
 			(at 143.51 170.18 0)
 			(uuid "6128cdfe-3b90-4843-9308-9e92dc162bd3")
 			(effects
@@ -1471,7 +1471,7 @@
 				(justify right)
 			)
 		)
-		(pin "RB1" output
+		(pin "RTRY2" output
 			(at 143.51 172.72 0)
 			(uuid "39cf722f-874a-4611-8d4b-19166e7f786b")
 			(effects
@@ -1481,7 +1481,7 @@
 				(justify right)
 			)
 		)
-		(pin "RB2" output
+		(pin "RTRY4" output
 			(at 143.51 175.26 0)
 			(uuid "7f33db55-465f-4f5f-bcad-3de6c26bdba4")
 			(effects
@@ -1833,7 +1833,7 @@
 				(justify right)
 			)
 		)
-		(pin "RB0" output
+		(pin "RTRY1" output
 			(at 176.53 170.18 180)
 			(uuid "331730e3-a26c-46b7-a997-53dde26c99ec")
 			(effects
@@ -1843,7 +1843,7 @@
 				(justify left)
 			)
 		)
-		(pin "RB1" output
+		(pin "RTRY2" output
 			(at 176.53 172.72 180)
 			(uuid "8c462f9e-c248-40f8-8785-f6106b519333")
 			(effects
@@ -1853,7 +1853,7 @@
 				(justify left)
 			)
 		)
-		(pin "RB2" output
+		(pin "RTRY4" output
 			(at 176.53 175.26 180)
 			(uuid "89153d37-283e-4288-9d69-dfd99bde614d")
 			(effects

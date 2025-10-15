@@ -1013,7 +1013,7 @@
 		)
 		(uuid "9b7f30ee-75a0-4a8f-ab10-11967afb8f37")
 	)
-	(hierarchical_label "RB2"
+	(hierarchical_label "RTRY4"
 		(shape input)
 		(at 86.36 87.63 180)
 		(effects
@@ -1035,7 +1035,7 @@
 		)
 		(uuid "f574fbb5-79fe-4648-bf8f-fbc65f5321b1")
 	)
-	(hierarchical_label "RB1"
+	(hierarchical_label "RTRY2"
 		(shape input)
 		(at 86.36 85.09 180)
 		(effects
@@ -1046,7 +1046,7 @@
 		)
 		(uuid "fb3254ee-55ef-4cb6-8815-267ab3573087")
 	)
-	(hierarchical_label "RB0"
+	(hierarchical_label "RTRY1"
 		(shape input)
 		(at 86.36 82.55 180)
 		(effects
