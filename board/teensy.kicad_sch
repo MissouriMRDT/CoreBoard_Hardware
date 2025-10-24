@@ -3396,50 +3396,6 @@
 			)
 		)
 	)
-	(global_label "FPWM3"
-		(shape output)
-		(at 71.12 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "615cf611-9d07-42ed-bf4e-34f91e993de6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.6639 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FPWM1"
-		(shape output)
-		(at 71.12 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69e28431-3bcd-4e82-a140-0e2892c25946")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.6639 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Tx+"
 		(shape input)
 		(at 149.86 74.93 270)
@@ -3506,50 +3462,6 @@
 			)
 		)
 	)
-	(global_label "FPWM2"
-		(shape output)
-		(at 71.12 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9244afd7-6da9-42aa-bb04-9c14a82d74fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.6639 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FPWM0"
-		(shape output)
-		(at 121.92 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "baf052eb-ae41-4b1f-9fe6-b602da964546")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.3761 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "Right"
 		(shape input)
 		(at 120.65 144.78 0)
@@ -3560,6 +3472,17 @@
 			(justify left)
 		)
 		(uuid "10d4824b-8c56-4765-b8d2-12b4d40f5533")
+	)
+	(hierarchical_label "FTACH2"
+		(shape input)
+		(at 71.12 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "118c2506-ef3a-45f1-9fe1-88ee2db369af")
 	)
 	(hierarchical_label "FR_EN"
 		(shape input)
@@ -3692,6 +3615,17 @@
 			(justify right)
 		)
 		(uuid "4f5bcf2c-084b-4f28-a0eb-b92b73f47629")
+	)
+	(hierarchical_label "FPWM1"
+		(shape output)
+		(at 71.12 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5743d156-10e7-4990-958f-37ec7e549c1e")
 	)
 	(hierarchical_label "RightTilt"
 		(shape output)
@@ -3836,6 +3770,17 @@
 		)
 		(uuid "a8aa0c98-97c3-4c90-a6f3-f208df736be3")
 	)
+	(hierarchical_label "FPWM2"
+		(shape output)
+		(at 121.92 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae206f23-2e52-4ad8-8428-e33c45ff86d6")
+	)
 	(hierarchical_label "FL_EN"
 		(shape input)
 		(at 121.92 104.14 0)
@@ -3857,6 +3802,17 @@
 			(justify left)
 		)
 		(uuid "b6422acc-99ab-4891-afa9-c33527152c71")
+	)
+	(hierarchical_label "FTACH1"
+		(shape input)
+		(at 71.12 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba6db851-6155-406f-a99e-d4f6f9597b44")
 	)
 	(hierarchical_label "RTRY4"
 		(shape input)

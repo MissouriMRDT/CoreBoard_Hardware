@@ -2682,7 +2682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 265.43 97.7899 0)
 			(effects
 				(font
@@ -3776,7 +3776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 189.23 38.0999 0)
 			(effects
 				(font
@@ -4347,7 +4347,7 @@
 		(fields_autoplaced yes)
 		(uuid "9012acb8-884a-44f5-b0ca-c9762467f400")
 		(property "Reference" "Q8"
-			(at 84.8934 138.076 0)
+			(at 83.82 138.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,8 +4355,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 84.8934 140.616 0)
+		(property "Value" "AO3401A"
+			(at 83.82 140.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4517,7 @@
 		(fields_autoplaced yes)
 		(uuid "924f0ce9-f929-472b-9b3a-8396caf0e347")
 		(property "Reference" "Q10"
-			(at 156.2084 137.7533 0)
+			(at 156.21 137.7533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,8 +4525,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 156.2084 140.2933 0)
+		(property "Value" "AO3401A"
+			(at 156.21 140.2933 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5026,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b9c4cf-a7aa-4a9d-b80c-4cc6e2b9aafd")
 		(property "Reference" "Q9"
-			(at 120.3896 137.4306 0)
+			(at 119.38 137.4306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,8 +5034,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 120.3896 139.9706 0)
+		(property "Value" "AO3401A"
+			(at 119.38 139.9706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 50.8 139.6999 0)
 			(effects
 				(font
@@ -5644,7 +5644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 189.23 97.7899 0)
 			(effects
 				(font
@@ -5745,7 +5745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 231.14 99.0599 0)
 			(effects
 				(font
@@ -6048,7 +6048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 260.35 38.0999 0)
 			(effects
 				(font
@@ -6148,7 +6148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 227.33 38.0999 0)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO3401A"
 			(at 50.8 81.2799 0)
 			(effects
 				(font
