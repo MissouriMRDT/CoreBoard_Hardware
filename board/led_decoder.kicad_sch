@@ -477,6 +477,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -2181,7 +2190,7 @@
 		)
 		(uuid "f865dcfa-e10f-4a76-a45a-8ad0d5d76994")
 	)
-	(label "RightMast"
+	(label "Rightmast"
 		(at 27.94 80.01 0)
 		(effects
 			(font
@@ -2611,7 +2620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1120"
+		(property "Value" "100"
 			(at 49.53 107.9499 0)
 			(effects
 				(font
@@ -2620,7 +2629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.974 106.426 90)
 			(effects
 				(font
@@ -2691,7 +2700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 264.16 99.06 0)
 			(effects
 				(font
@@ -2884,6 +2893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.0834 153.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ea0396c-653f-4a3c-8858-a0bf31ae19d8")
 		)
@@ -2976,7 +2994,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c23a33c-d547-4058-9054-8770c248bde8")
 		(property "Reference" "R21"
-			(at 154.9384 164.4233 0)
+			(at 154.94 164.4233 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,8 +3002,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1120"
-			(at 154.9384 166.9633 0)
+		(property "Value" "100"
+			(at 154.94 166.9633 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +3011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.3824 165.4394 90)
 			(effects
 				(font
@@ -3112,22 +3130,24 @@
 		(fields_autoplaced yes)
 		(uuid "3b7343b3-1b66-4191-826e-38a33413377c")
 		(property "Reference" "R4"
-			(at 250.19 62.23 90)
+			(at 259.08 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 252.73 62.23 90)
+		(property "Value" "100"
+			(at 259.08 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 255.524 61.976 90)
 			(effects
 				(font
@@ -3246,7 +3266,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f758124-1714-4f88-8e58-f9f4e461a6fd")
 		(property "Reference" "R20"
-			(at 119.1196 164.1006 0)
+			(at 119.38 164.1006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,8 +3274,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1120"
-			(at 119.1196 166.6406 0)
+		(property "Value" "100"
+			(at 119.38 166.6406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 115.5636 165.1167 90)
 			(effects
 				(font
@@ -3390,7 +3410,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Blue"
 			(at 231.14 114.6174 90)
 			(effects
 				(font
@@ -3426,6 +3446,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac62f6a9-9d1c-4609-9861-1dda57c6340e")
 		)
@@ -3443,7 +3472,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 116.5796 126.0007 90)
+		(at 116.5796 126.0007 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3452,7 +3481,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c899f43-23b2-4f45-80eb-54b18a6887d4")
 		(property "Reference" "#PWR058"
-			(at 120.3896 126.0007 0)
+			(at 116.5796 129.8107 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,11 +3490,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 111.4996 126.0007 0)
+			(at 118.11 124.7306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3526,7 +3556,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Blue"
 			(at 260.35 53.6574 90)
 			(effects
 				(font
@@ -3554,6 +3584,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -3603,7 +3642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP16B_TOS"
+		(property "Footprint" "CoreBoard:TSSOP16B_TOS-L"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -3700,22 +3739,24 @@
 		(fields_autoplaced yes)
 		(uuid "63f9f91e-e978-4a10-9cb7-110b21b42cf8")
 		(property "Reference" "R6"
-			(at 255.27 123.19 90)
+			(at 264.16 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 257.81 123.19 90)
+		(property "Value" "100"
+			(at 264.16 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 260.604 122.936 90)
 			(effects
 				(font
@@ -3785,7 +3826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 187.96 39.37 0)
 			(effects
 				(font
@@ -3876,7 +3917,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Blue"
 			(at 265.43 113.3474 90)
 			(effects
 				(font
@@ -3904,6 +3945,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 261.62 110.49 0)
 			(effects
 				(font
@@ -3946,7 +3996,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1120"
+		(property "Value" "100"
 			(at 49.53 166.3699 0)
 			(effects
 				(font
@@ -3955,7 +4005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.974 164.846 90)
 			(effects
 				(font
@@ -3999,7 +4049,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 46.99 125.73 90)
+		(at 46.99 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4008,7 +4058,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f009345-7242-48c5-886b-a4884badee78")
 		(property "Reference" "#PWR040"
-			(at 50.8 125.73 0)
+			(at 46.99 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,11 +4067,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 41.91 125.73 0)
+			(at 49.53 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4118,6 +4169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "504cb3de-cc17-46e9-ab36-075f2535c295")
 		)
@@ -4135,7 +4195,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.3984 126.3234 90)
+		(at 152.3984 126.3234 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4144,7 +4204,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b6aa038-1b3a-455f-ae3d-4fe87d6f143d")
 		(property "Reference" "#PWR060"
-			(at 156.2084 126.3234 0)
+			(at 152.3984 130.1334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,11 +4213,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 147.3184 126.3234 0)
+			(at 154.94 125.0533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4210,22 +4271,24 @@
 		(fields_autoplaced yes)
 		(uuid "8b9e4de8-c873-4bf6-a8db-ad1322f939d7")
 		(property "Reference" "R9"
-			(at 179.07 62.23 90)
+			(at 187.96 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 181.61 62.23 90)
+		(property "Value" "100"
+			(at 187.96 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 184.404 61.976 90)
 			(effects
 				(font
@@ -4278,22 +4341,24 @@
 		(fields_autoplaced yes)
 		(uuid "8da562e9-dbf7-48b2-b62c-75d9b28591dd")
 		(property "Reference" "R7"
-			(at 179.07 123.19 90)
+			(at 187.96 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 181.61 123.19 90)
+		(property "Value" "100"
+			(at 187.96 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 184.404 122.936 90)
 			(effects
 				(font
@@ -4364,7 +4429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 83.6234 141.8861 0)
 			(effects
 				(font
@@ -4454,7 +4519,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Blue"
 			(at 189.23 53.6574 90)
 			(effects
 				(font
@@ -4482,6 +4547,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -4534,7 +4608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 154.9384 141.5634 0)
 			(effects
 				(font
@@ -4617,7 +4691,7 @@
 		(fields_autoplaced yes)
 		(uuid "93ed54f8-1501-4740-a29a-7bddc14692a2")
 		(property "Reference" "R13"
-			(at 83.6234 164.746 0)
+			(at 83.82 164.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,8 +4699,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1120"
-			(at 83.6234 167.286 0)
+		(property "Value" "100"
+			(at 83.82 167.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.0674 165.7621 90)
 			(effects
 				(font
@@ -4893,7 +4967,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Blue"
 			(at 227.33 53.6574 90)
 			(effects
 				(font
@@ -4921,6 +4995,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 223.52 50.8 0)
 			(effects
 				(font
@@ -4999,6 +5082,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.5796 152.6707 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc5f140b-4180-4514-8798-da537b636a02")
 		)
@@ -5043,7 +5135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 119.1196 141.2407 0)
 			(effects
 				(font
@@ -5144,7 +5236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 49.53 140.97 0)
 			(effects
 				(font
@@ -5227,22 +5319,24 @@
 		(fields_autoplaced yes)
 		(uuid "c2024c80-1c90-4375-a6c3-593df364cfb5")
 		(property "Reference" "R8"
-			(at 217.17 62.23 90)
+			(at 226.06 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 219.71 62.23 90)
+		(property "Value" "100"
+			(at 226.06 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 222.504 61.976 90)
 			(effects
 				(font
@@ -5331,6 +5425,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 46.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 46.99 152.4 0)
 			(effects
 				(font
@@ -5541,6 +5644,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.3984 152.9934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03448013-9039-47bb-9975-251a1b3879fd")
 		)
@@ -5567,22 +5679,24 @@
 		(fields_autoplaced yes)
 		(uuid "cbc224a6-b08b-4ef3-8b85-626b7fc6a5eb")
 		(property "Reference" "R5"
-			(at 220.98 124.46 90)
+			(at 229.87 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 223.52 124.46 90)
+		(property "Value" "100"
+			(at 229.87 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 226.314 124.206 90)
 			(effects
 				(font
@@ -5653,7 +5767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -5754,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 229.87 100.33 0)
 			(effects
 				(font
@@ -5894,7 +6008,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 46.99 67.31 90)
+		(at 46.99 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5903,7 +6017,7 @@
 		(fields_autoplaced yes)
 		(uuid "da33b5f3-c518-4cc0-bf83-fb5823c47ff9")
 		(property "Reference" "#PWR056"
-			(at 50.8 67.31 0)
+			(at 46.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,11 +6026,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 41.91 67.31 0)
+			(at 49.53 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5977,7 +6092,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Blue"
 			(at 189.23 113.3474 90)
 			(effects
 				(font
@@ -6005,6 +6120,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 110.49 0)
 			(effects
 				(font
@@ -6057,7 +6181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 259.08 39.37 0)
 			(effects
 				(font
@@ -6157,7 +6281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 226.06 39.37 0)
 			(effects
 				(font
@@ -6258,7 +6382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
 			(at 49.53 82.55 0)
 			(effects
 				(font
@@ -6332,7 +6456,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 81.0834 126.6461 90)
+		(at 81.0834 126.6461 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6341,7 +6465,7 @@
 		(fields_autoplaced yes)
 		(uuid "f64c3cb6-c9ab-4905-a6b1-fb38b3528cd7")
 		(property "Reference" "#PWR042"
-			(at 84.8934 126.6461 0)
+			(at 81.0834 130.4561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,11 +6474,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 76.0034 126.6461 0)
+			(at 82.55 125.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

@@ -822,20 +822,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 0 55.88 0)
+			(property "Reference" "U"
+				(at -15.24 52.07 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "Teensy4.1_DEV-16771"
-				(at 0 53.34 0)
+				(at -15.24 -53.34 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "MODULE_DEV-16771"

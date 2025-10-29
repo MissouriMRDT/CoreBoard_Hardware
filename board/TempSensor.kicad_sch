@@ -696,7 +696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSOP8_MC_MCH"
+		(property "Footprint" ""
 			(at 118.11 92.71 0)
 			(effects
 				(font
