@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "CoreBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Footprints/CoreBoard.pretty")(options "")(descr ""))
   (lib (name "Temp_Sensor")(type "KiCad")(uri "C:/Users/samue/OneDrive/Documents/GitHub/CoreBoard_Hardware/lib/FootPrints/CoreBoard.pretty/Temp_Sensor.pretty")(options "")(descr ""))
+  (lib (name "Rotary_Encoder")(type "KiCad")(uri "C:/Users/samue/OneDrive/Documents/GitHub/CoreBoard_Hardware/lib/FootPrints/CoreBoard.pretty/Rotary_Encoder.pretty")(options "")(descr ""))
 )
