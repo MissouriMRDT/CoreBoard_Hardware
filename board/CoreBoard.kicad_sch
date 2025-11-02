@@ -169,6 +169,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 181.61) (xy 246.38 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0328da5e-411f-49dd-ba91-fc0df7a2ec1b")
+	)
+	(wire
+		(pts
 			(xy 167.64 210.82) (xy 167.64 187.96)
 		)
 		(stroke
@@ -2125,16 +2135,6 @@
 				(justify left)
 			)
 		)
-		(pin "NeoPixel" output
-			(at 233.68 179.07 0)
-			(uuid "dc20c38d-e313-439d-b516-a4740214a09b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SNSR_SCL" output
 			(at 176.53 96.52 180)
 			(uuid "d944036a-3a03-4127-a275-46c669503ea3")
@@ -2195,6 +2195,26 @@
 				(justify left)
 			)
 		)
+		(pin "RGB_Strip" output
+			(at 233.68 181.61 0)
+			(uuid "72244870-a0a5-4d5d-bce3-226189b025b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Lighting_Panel" output
+			(at 233.68 179.07 0)
+			(uuid "e1da49a6-4439-4aad-9f06-b7e920199dc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68"
@@ -2237,9 +2257,19 @@
 				(justify left top)
 			)
 		)
-		(pin "NeoPixel" input
+		(pin "Lighting_Panel" input
 			(at 246.38 179.07 180)
-			(uuid "09d6f4d9-7a69-46ed-9101-c4b06b14c952")
+			(uuid "76a12d7e-4b94-4b4b-a0d9-76a36a55dd45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_Strip" input
+			(at 246.38 181.61 180)
+			(uuid "bbe49c5c-6eb2-4e27-b12b-becb9bb90741")
 			(effects
 				(font
 					(size 1.27 1.27)

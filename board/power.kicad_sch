@@ -5163,7 +5163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "VCC"
 			(at 44.45 104.14 0)
 			(effects
 				(font

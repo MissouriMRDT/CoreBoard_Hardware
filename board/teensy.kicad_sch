@@ -2507,10 +2507,6 @@
 		(uuid "aaf5019e-2e19-47c4-91bd-9b1697830267")
 	)
 	(no_connect
-		(at 115.57 139.7)
-		(uuid "dfe0693f-8c51-409d-aade-e9f8313693c9")
-	)
-	(no_connect
 		(at 115.57 60.96)
 		(uuid "e496406e-628b-47b1-b999-d24b066f43ea")
 	)
@@ -3096,6 +3092,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 139.7) (xy 120.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41e7a11-adee-49b2-96dd-a81350908bf0")
+	)
+	(wire
+		(pts
 			(xy 71.12 142.24) (xy 74.93 142.24)
 		)
 		(stroke
@@ -3488,7 +3494,7 @@
 	)
 	(hierarchical_label "FR_EN"
 		(shape input)
-		(at 120.65 124.46 0)
+		(at 120.65 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3530,6 +3536,17 @@
 		)
 		(uuid "1667c01d-42c0-49ee-95c7-2b3d31519176")
 	)
+	(hierarchical_label "RGB_Strip"
+		(shape output)
+		(at 120.65 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c789ae6-97d3-4687-9cef-5bbaacc8e19a")
+	)
 	(hierarchical_label "Spare2"
 		(shape output)
 		(at 71.12 71.12 180)
@@ -3543,7 +3560,7 @@
 	)
 	(hierarchical_label "BL_EN"
 		(shape input)
-		(at 121.92 109.22 0)
+		(at 120.65 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3750,9 +3767,9 @@
 		)
 		(uuid "96b866d1-28a8-426e-b596-a903292885c6")
 	)
-	(hierarchical_label "NeoPixel"
+	(hierarchical_label "Lighting_Panel"
 		(shape output)
-		(at 120.65 132.08 0)
+		(at 121.92 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3785,7 +3802,7 @@
 	)
 	(hierarchical_label "FL_EN"
 		(shape input)
-		(at 121.92 104.14 0)
+		(at 121.92 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3796,7 +3813,7 @@
 	)
 	(hierarchical_label "ML_EN"
 		(shape input)
-		(at 121.92 106.68 0)
+		(at 121.92 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3895,7 +3912,7 @@
 	)
 	(hierarchical_label "BR_EN"
 		(shape input)
-		(at 120.65 129.54 0)
+		(at 120.65 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)

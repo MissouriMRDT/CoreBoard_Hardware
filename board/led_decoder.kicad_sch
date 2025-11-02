@@ -1322,16 +1322,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Y7\n"
-		(exclude_from_sim no)
-		(at 137.668 69.342 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20005f3b-6ee1-4dcc-9a0c-27c8ec7e31a2")
-	)
 	(text "Decoder"
 		(exclude_from_sim no)
 		(at 112.014 35.306 0)
@@ -1359,6 +1349,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e65750bb-3742-48b1-ae97-cf7091796005")
+	)
+	(no_connect
+		(at 92.71 80.01)
+		(uuid "2a8fa08c-c6f5-4933-ad38-bf8b10f213e6")
+	)
+	(no_connect
+		(at 133.35 92.71)
+		(uuid "4e68637d-b0d8-4c26-a84c-996be7b5d746")
 	)
 	(wire
 		(pts
@@ -1399,26 +1397,6 @@
 			(type default)
 		)
 		(uuid "14243849-7545-4e8f-a532-e071189e263e")
-	)
-	(wire
-		(pts
-			(xy 83.82 66.04) (xy 83.82 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1786758f-36f4-4c6a-87d1-76e482294034")
-	)
-	(wire
-		(pts
-			(xy 83.82 66.04) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "199bd0ae-97e2-456e-97af-8d09f2eab209")
 	)
 	(wire
 		(pts
@@ -1492,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 77.47) (xy 143.51 77.47)
+			(xy 133.35 77.47) (xy 148.59 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1529,16 +1507,6 @@
 			(type default)
 		)
 		(uuid "408f4172-9ff2-43b8-bc6e-f4fedb1f4943")
-	)
-	(wire
-		(pts
-			(xy 92.71 80.01) (xy 83.82 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47625749-cd49-429a-a0e0-e2f4d6136a05")
 	)
 	(wire
 		(pts
@@ -1632,16 +1600,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 128.27 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60addde1-8e00-4568-801e-9ea27b0c439a")
-	)
-	(wire
-		(pts
 			(xy 152.3984 126.3234) (xy 152.3984 133.9434)
 		)
 		(stroke
@@ -1649,16 +1607,6 @@
 			(type default)
 		)
 		(uuid "62fded7d-5f63-42cb-9e61-5d70fbc4ea74")
-	)
-	(wire
-		(pts
-			(xy 133.35 92.71) (xy 148.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6308307e-3caa-4821-bb88-2e54b793f34f")
 	)
 	(wire
 		(pts
@@ -1779,16 +1727,6 @@
 			(type default)
 		)
 		(uuid "87e49cca-c51f-4e10-aed4-6d0f157021fd")
-	)
-	(wire
-		(pts
-			(xy 128.27 71.12) (xy 148.59 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae0c84c-7c33-4a28-aae4-d78fc6e108ef")
 	)
 	(wire
 		(pts
@@ -2190,7 +2128,7 @@
 		)
 		(uuid "f865dcfa-e10f-4a76-a45a-8ad0d5d76994")
 	)
-	(label "Rightmast"
+	(label "RightMast"
 		(at 27.94 80.01 0)
 		(effects
 			(font
@@ -2211,7 +2149,7 @@
 		(uuid "03884d47-7de6-4a76-aafd-836153925c32")
 	)
 	(label "Spare2"
-		(at 148.59 80.01 0)
+		(at 148.59 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2231,7 +2169,7 @@
 		(uuid "2f40816a-5a4b-495a-9f43-3bbd9c6aea35")
 	)
 	(label "Wheels"
-		(at 143.51 77.47 0)
+		(at 148.59 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2251,7 +2189,7 @@
 		(uuid "452c7a51-2dfe-4874-a383-1f52a06dd078")
 	)
 	(label "LeftMast"
-		(at 148.59 87.63 0)
+		(at 148.59 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2270,8 +2208,8 @@
 		)
 		(uuid "664d23ea-9c24-4d09-a43e-86c27a25f0f3")
 	)
-	(label "Rightmast"
-		(at 148.59 90.17 0)
+	(label "RightMast"
+		(at 148.59 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2281,7 +2219,7 @@
 		(uuid "6ba8b253-ab7f-4645-aedd-8b0d00820b08")
 	)
 	(label "Spare1"
-		(at 148.59 82.55 0)
+		(at 148.59 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2319,16 +2257,6 @@
 			(justify left bottom)
 		)
 		(uuid "7acabdaf-e789-4a81-a10b-391841aa8eec")
-	)
-	(label "Off"
-		(at 148.59 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87e9eaff-4925-44ae-b562-f7a60b128a59")
 	)
 	(label "BackCam"
 		(at 62.0334 139.3461 0)

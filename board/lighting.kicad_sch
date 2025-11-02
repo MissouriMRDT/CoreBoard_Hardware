@@ -374,6 +374,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e80cb8-517a-4f81-8479-a8a54c68b151")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3727e71e-7c8b-4790-bf4d-7670c7b6ea55")
+	)
+	(wire
+		(pts
 			(xy 96.52 83.82) (xy 101.6 83.82)
 		)
 		(stroke
@@ -394,6 +414,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 81.28) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736d02d5-117c-4b60-ba1e-ff2be78511c0")
+	)
+	(wire
+		(pts
 			(xy 101.6 81.28) (xy 96.52 81.28)
 		)
 		(stroke
@@ -401,6 +431,26 @@
 			(type default)
 		)
 		(uuid "b3281bf0-0f44-4ba4-b4d8-7338b167f2f7")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 143.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00fe67b-5870-4a62-ac0b-166b19a64f5f")
+	)
+	(wire
+		(pts
+			(xy 143.51 86.36) (xy 148.59 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea293040-a3a0-4bdd-b0e8-bfda8b4e252e")
 	)
 	(wire
 		(pts
@@ -412,7 +462,7 @@
 		)
 		(uuid "f585f2e1-8105-4483-98d6-18ef12bf6c73")
 	)
-	(hierarchical_label "NeoPixel"
+	(hierarchical_label "Lighting_Panel"
 		(shape input)
 		(at 96.52 83.82 180)
 		(effects
@@ -422,6 +472,83 @@
 			(justify right)
 		)
 		(uuid "30f559f4-a457-40d2-9ba7-8144efc14047")
+	)
+	(hierarchical_label "RGB_Strip"
+		(shape input)
+		(at 143.51 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87bb8747-b853-433f-bbb1-f69469943c9c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f251f8e-f6db-4e88-9cb2-2ccc5aafa03f")
+		(property "Reference" "#PWR075"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "007d9eaf-36f2-4040-8928-0374b92c1f51")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/e270813c-bc87-4163-b108-0e7c5ed23f54"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_03")
@@ -451,7 +578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -557,6 +684,145 @@
 			(project ""
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/e270813c-bc87-4163-b108-0e7c5ed23f54"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_03")
+		(at 153.67 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ca9e13-2727-443c-b73b-a4c70edb6802")
+		(property "Reference" "Conn1"
+			(at 157.48 82.5499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_03"
+			(at 157.48 85.0899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "949940da-470d-4066-8470-dccf419bd57b")
+		)
+		(pin "1"
+			(uuid "734a7e0e-00eb-464b-93ee-700a231b7c9c")
+		)
+		(pin "2"
+			(uuid "d104c868-7844-4bc5-bf6a-053ff2fd714b")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/e270813c-bc87-4163-b108-0e7c5ed23f54"
+					(reference "Conn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e41c09f-fa01-4c0f-bc5e-36d7386b1008")
+		(property "Reference" "#PWR074"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f410428-08bc-49f3-bbf8-1df6635bad23")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/e270813c-bc87-4163-b108-0e7c5ed23f54"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
