@@ -2394,7 +2394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CoreBoard:DIPS762W56P254L991H597Q6N"
 			(at 85.09 146.99 0)
 			(effects
 				(font

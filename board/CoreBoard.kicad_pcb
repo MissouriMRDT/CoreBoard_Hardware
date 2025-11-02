@@ -24355,7 +24355,7 @@
 			)
 		)
 	)
-	(footprint "Temp_Sensor:DIPS762W56P254L991H597Q6N"
+	(footprint "CoreBoard:DIPS762W56P254L991H597Q6N"
 		(layer "F.Cu")
 		(uuid "f0b36e02-6402-4952-b9c8-ca3f840bf6be")
 		(at 139.446 90.438)
@@ -24413,7 +24413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "472cba5b-1cb3-4fc0-9f35-6ccc37e8a74b")
+			(uuid "5664f953-9eab-4799-af7e-adc75d1cc54d")
 			(effects
 				(font
 					(size 1 1)
@@ -24426,7 +24426,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b8e332c-15cb-47b8-af51-d47c63eee6e2")
+			(uuid "97fb9937-df26-41a6-ac34-0b1cd7f9f822")
 			(effects
 				(font
 					(size 1 1)
@@ -24439,7 +24439,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46c313e1-2c8c-45ac-8091-eaa73978e7b2")
+			(uuid "9b31c59f-cdbf-4cde-9437-9dc086596e23")
 			(effects
 				(font
 					(size 1 1)
@@ -24452,7 +24452,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40f08d52-03aa-40af-a180-e193ce3efe86")
+			(uuid "dd1bdc88-7b92-419c-a9b3-b737be11b097")
 			(effects
 				(font
 					(size 1 1)
@@ -24465,7 +24465,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0df3220c-5fc8-45df-bd00-7026f82961df")
+			(uuid "38026386-3077-496f-8cf2-2c128f4bcd98")
 			(effects
 				(font
 					(size 1 1)
@@ -24478,7 +24478,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f8ea123-d597-4504-b073-a3955434a94b")
+			(uuid "a2237762-15b8-4f03-8c80-d645e0e790a9")
 			(effects
 				(font
 					(size 1 1)
@@ -24491,7 +24491,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d5d3bf8-a138-475a-b7a1-f0bf5945445e")
+			(uuid "762a7179-0704-4cb5-b815-d6baae91466b")
 			(effects
 				(font
 					(size 1 1)
@@ -24511,7 +24511,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d71e0ffa-16c0-4e20-8859-81e6f60cd657")
+			(uuid "4c1f27d5-3ef8-4837-899e-02d28d6547c5")
 		)
 		(fp_line
 			(start -1.142 7.622)
@@ -24521,7 +24521,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7685df43-e613-4293-80b1-2e1299b3989b")
+			(uuid "1159076c-ed47-4b84-aea1-930c5ac5be5a")
 		)
 		(fp_line
 			(start 8.762 -2.542)
@@ -24531,7 +24531,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9b45cc70-3436-4479-8317-e88c728509c1")
+			(uuid "58045553-ff35-4fe3-b68f-1da2ee685a36")
 		)
 		(fp_line
 			(start -1.392 -2.792)
@@ -24541,7 +24541,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a261992b-c125-4d7b-ae5b-734980fd8d9b")
+			(uuid "2568f62d-51fc-47a8-84a9-0d4bb1e216c5")
 		)
 		(fp_line
 			(start -1.392 7.872)
@@ -24551,7 +24551,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4e67a66e-8b58-415a-8294-8330fc01c182")
+			(uuid "f2cf2b91-82ed-4208-b1b0-ae6b4f0c59f7")
 		)
 		(fp_line
 			(start 9.012 -2.792)
@@ -24561,7 +24561,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "61cc0ed9-ac66-4f53-8b55-dd5fe8549f64")
+			(uuid "1677b082-a6b7-44de-abe1-e2017f174c4f")
 		)
 		(fp_line
 			(start 9.012 7.872)
@@ -24571,7 +24571,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "de3fc2d8-a6bd-4273-a73f-66a8316682ce")
+			(uuid "a1706213-c4fd-41de-9f6c-1a1d04816891")
 		)
 		(fp_line
 			(start -1.142 -2.542)
@@ -24581,7 +24581,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c11c577a-866c-4045-8943-f74c3b56271b")
+			(uuid "84f4b6b3-6adb-46ef-9ac8-91f12c81016f")
 		)
 		(fp_line
 			(start -1.142 -1.272)
@@ -24591,7 +24591,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1a396205-9e63-4ff6-8147-bbf5a56aa31d")
+			(uuid "6d4de2a0-f9f1-418e-a1b1-6fa4e7f0b1d6")
 		)
 		(fp_line
 			(start -1.142 7.622)
@@ -24601,7 +24601,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "afab966c-7785-4b32-ad45-bd6cafd0592c")
+			(uuid "ca3c6fe8-0652-4509-9ce7-9f91c226d49b")
 		)
 		(fp_line
 			(start 8.762 -2.542)
@@ -24611,7 +24611,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0fdc1e80-ccf6-430a-b0f7-63811acdd551")
+			(uuid "a35e95f4-4220-4f0d-b2a6-ca5163f0eb6d")
 		)
 		(fp_line
 			(start 8.762 7.622)
@@ -24621,7 +24621,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a3c6341f-f347-403a-ad75-9b28088e3208")
+			(uuid "4a5a4838-931c-40f8-a6ba-4fcce7b06706")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -24701,7 +24701,7 @@
 			(uuid "7d23e0b3-8674-4c21-a761-9dd86e00307e")
 		)
 		(embedded_fonts no)
-		(model "94HBB08T.stp"
+		(model "${KIPRJMOD}/../lib/Models/94HBB08T.stp"
 			(offset
 				(xyz 3.809999886 -2.539999924 6.340000057)
 			)
