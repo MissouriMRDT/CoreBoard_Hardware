@@ -2423,12 +2423,6 @@
 		(uuid "77592843-1c04-4a10-8e81-8689f3171d72")
 	)
 	(junction
-		(at 35.56 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7857ad3d-e809-4886-89f0-87f083ae8837")
-	)
-	(junction
 		(at 44.45 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2596,6 +2590,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 157.48) (xy 44.45 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39eccf2c-4852-4dbd-af51-4bd1a0f1a535")
+	)
+	(wire
+		(pts
 			(xy 110.49 68.58) (xy 119.38 68.58)
 		)
 		(stroke
@@ -2603,16 +2607,6 @@
 			(type default)
 		)
 		(uuid "3e202900-41f8-4f38-9ba2-c86a33f5a075")
-	)
-	(wire
-		(pts
-			(xy 34.29 144.78) (xy 35.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b55719-8a80-4a0d-a22b-69dc92468309")
 	)
 	(wire
 		(pts
@@ -2726,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 44.45 154.94)
+			(xy 44.45 144.78) (xy 44.45 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +3030,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 50.8 144.78)
+			(xy 44.45 144.78) (xy 58.42 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3490,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 154.94 0)
+		(at 44.45 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3505,7 +3499,7 @@
 		(fields_autoplaced yes)
 		(uuid "24fcc466-1104-4d41-88b1-593610fc4fa1")
 		(property "Reference" "#PWR01"
-			(at 44.45 161.29 0)
+			(at 44.45 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 160.02 0)
+			(at 44.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 154.94 0)
+			(at 44.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +3525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 154.94 0)
+			(at 44.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 154.94 0)
+			(at 44.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4226,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 54.61 144.78 90)
+		(at 44.45 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4241,23 +4235,25 @@
 		(fields_autoplaced yes)
 		(uuid "765ed83c-12ec-4189-8e11-5047ec2c5651")
 		(property "Reference" "R10"
-			(at 54.61 138.43 90)
+			(at 46.99 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 54.61 140.97 90)
+			(at 46.99 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 54.864 143.764 90)
+			(at 43.434 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 144.78 0)
+			(at 44.45 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4271,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 144.78 0)
+			(at 44.45 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

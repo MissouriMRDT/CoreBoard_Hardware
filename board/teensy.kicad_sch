@@ -2499,8 +2499,8 @@
 		(uuid "982978f3-b427-4d40-bbb0-801c45d1f8b1")
 	)
 	(no_connect
-		(at 115.57 142.24)
-		(uuid "a8b14114-d4a3-4c8b-ab73-d6e8bd20a8e7")
+		(at 71.12 116.84)
+		(uuid "a2878e53-98e7-4aa3-9999-0f55ce0c15fe")
 	)
 	(no_connect
 		(at 165.1 72.39)
@@ -2889,6 +2889,16 @@
 			(type default)
 		)
 		(uuid "74d99867-acae-4f63-9858-83751e541913")
+	)
+	(wire
+		(pts
+			(xy 115.57 142.24) (xy 120.65 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75171b9b-8a7b-4ee1-8832-7b5c54be87f9")
 	)
 	(wire
 		(pts
@@ -3538,12 +3548,12 @@
 	)
 	(hierarchical_label "RGB_Strip"
 		(shape output)
-		(at 120.65 139.7 0)
+		(at 71.12 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2c789ae6-97d3-4687-9cef-5bbaacc8e19a")
 	)
@@ -3593,12 +3603,12 @@
 	)
 	(hierarchical_label "MR_RX"
 		(shape input)
-		(at 71.12 129.54 180)
+		(at 120.65 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3e921646-22af-4cae-80e2-37b9634eae39")
 	)
@@ -3615,7 +3625,7 @@
 	)
 	(hierarchical_label "BL_RX"
 		(shape input)
-		(at 71.12 99.06 180)
+		(at 71.12 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3626,7 +3636,7 @@
 	)
 	(hierarchical_label "BL_TX"
 		(shape output)
-		(at 71.12 101.6 180)
+		(at 71.12 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3637,12 +3647,12 @@
 	)
 	(hierarchical_label "FPWM1"
 		(shape output)
-		(at 71.12 116.84 180)
+		(at 121.92 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5743d156-10e7-4990-958f-37ec7e549c1e")
 	)
@@ -3670,7 +3680,7 @@
 	)
 	(hierarchical_label "BR_RX"
 		(shape input)
-		(at 71.12 142.24 180)
+		(at 71.12 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3725,7 +3735,7 @@
 	)
 	(hierarchical_label "FR_TX"
 		(shape output)
-		(at 71.12 124.46 180)
+		(at 71.12 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3736,7 +3746,7 @@
 	)
 	(hierarchical_label "FL_RX"
 		(shape input)
-		(at 71.12 83.82 180)
+		(at 71.12 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3747,7 +3757,7 @@
 	)
 	(hierarchical_label "ML_RX"
 		(shape input)
-		(at 71.12 93.98 180)
+		(at 71.12 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3769,18 +3779,18 @@
 	)
 	(hierarchical_label "Lighting_Panel"
 		(shape output)
-		(at 121.92 109.22 0)
+		(at 71.12 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a16b1de3-bbc3-4409-b3fd-7231e097d907")
 	)
 	(hierarchical_label "FL_TX"
 		(shape output)
-		(at 71.12 86.36 180)
+		(at 71.12 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3846,7 +3856,7 @@
 	)
 	(hierarchical_label "ML_TX"
 		(shape output)
-		(at 71.12 96.52 180)
+		(at 71.12 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3857,12 +3867,12 @@
 	)
 	(hierarchical_label "MR_TX"
 		(shape output)
-		(at 71.12 132.08 180)
+		(at 120.65 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d2a69f01-2f3e-4722-aa62-0d09e3fe10d5")
 	)
@@ -3879,7 +3889,7 @@
 	)
 	(hierarchical_label "BR_TX"
 		(shape output)
-		(at 71.12 139.7 180)
+		(at 71.12 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3901,7 +3911,7 @@
 	)
 	(hierarchical_label "FR_RX"
 		(shape input)
-		(at 71.12 127 180)
+		(at 71.12 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)

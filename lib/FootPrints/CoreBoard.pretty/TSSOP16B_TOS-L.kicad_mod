@@ -1051,4 +1051,15 @@
 		(uuid "29a9744c-3263-4c4b-acbc-345f6868321f")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/Models/TSSOP16B_z90.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
