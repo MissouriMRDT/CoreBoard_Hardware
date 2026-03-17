@@ -779,18 +779,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:AO3401A"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -798,8 +795,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -807,25 +804,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -834,34 +834,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -870,7 +843,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMOS_0_1"
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1037,7 +1019,7 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
+			(symbol "AO3401A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1048,7 +1030,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1066,7 +1048,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1084,7 +1066,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1360,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.3484 139.0234) (xy 144.7784 139.0234)
+			(xy 133.35 138.43) (xy 144.78 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.0834 149.5061) (xy 81.0834 144.4261)
+			(xy 82.55 147.32) (xy 82.55 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.0834 157.1261) (xy 81.0834 162.2061)
+			(xy 82.55 154.94) (xy 82.55 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1552,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.0834 126.6461) (xy 81.0834 134.2661)
+			(xy 82.55 124.46) (xy 82.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.3984 126.3234) (xy 152.3984 133.9434)
+			(xy 152.4 125.73) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.5796 126.0007) (xy 116.5796 133.6207)
+			(xy 115.57 124.46) (xy 115.57 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.0334 139.3461) (xy 73.4634 139.3461)
+			(xy 63.5 137.16) (xy 74.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.5796 156.4807) (xy 116.5796 161.5607)
+			(xy 115.57 154.94) (xy 115.57 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.5796 148.8607) (xy 116.5796 143.7807)
+			(xy 115.57 147.32) (xy 115.57 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.3984 156.8034) (xy 152.3984 161.8834)
+			(xy 152.4 161.29) (xy 152.4 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.3984 149.1834) (xy 152.3984 144.1034)
+			(xy 152.4 143.51) (xy 152.4 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2120,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.5296 138.7007) (xy 108.9596 138.7007)
+			(xy 96.52 137.16) (xy 107.95 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2139,7 +2121,7 @@
 		(uuid "01ab7b42-457a-4d60-ac14-0e13ea7e9a4a")
 	)
 	(label "Spare1"
-		(at 97.5296 138.7007 0)
+		(at 96.52 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,7 +2241,7 @@
 		(uuid "7acabdaf-e789-4a81-a10b-391841aa8eec")
 	)
 	(label "BackCam"
-		(at 62.0334 139.3461 0)
+		(at 63.5 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2269,7 +2251,7 @@
 		(uuid "b9ffb523-a50c-48a1-847e-c3d3ac9fb96d")
 	)
 	(label "Spare2"
-		(at 133.3484 139.0234 0)
+		(at 133.35 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,6 +2378,81 @@
 			(justify right)
 		)
 		(uuid "fc48995f-0d56-41a8-b928-49f3dd9b5ba1")
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 224.79 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02332966-dd60-4e83-84e2-c7c62eab2b0f")
+		(property "Reference" "Q5"
+			(at 231.14 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 231.14 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 229.87 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 229.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fadc42a9-315e-4049-af48-05f044a8cc9a")
+		)
+		(pin "2"
+			(uuid "771cd6a6-3913-4660-9c20-41e4830658d7")
+		)
+		(pin "3"
+			(uuid "a062f153-6339-4972-a323-f64dedccc771")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2600,107 +2657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 259.08 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10c9e6b8-eba3-40be-881a-8b17985bc2c7")
-		(property "Reference" "Q2"
-			(at 265.43 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 265.43 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 264.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 259.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 259.08 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 259.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1ab1e74-3661-4d9f-ac9f-9ebdb19892e8")
-		)
-		(pin "1"
-			(uuid "85c7a2bb-f56f-4f08-b6db-8d861becd4f9")
-		)
-		(pin "3"
-			(uuid "add047d1-6341-4093-ac95-620136d434f0")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 91.44 53.34 0)
 		(unit 1)
@@ -2768,7 +2724,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 81.0834 153.3161 90)
+		(at 82.55 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2777,7 +2733,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ed43ace-5eb5-4d42-a90d-29242a3c3159")
 		(property "Reference" "D15"
-			(at 84.8934 153.6335 90)
+			(at 86.36 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2742,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 84.8934 156.1735 90)
+			(at 86.36 153.9874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2751,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 81.0834 153.3161 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.0834 153.3161 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2769,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 81.0834 153.3161 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2778,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.0834 153.3161 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2869,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 152.3984 165.6934 180)
+		(at 152.4 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2922,7 +2878,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c23a33c-d547-4058-9054-8770c248bde8")
 		(property "Reference" "R21"
-			(at 154.94 164.4233 0)
+			(at 154.9416 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2887,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 154.94 166.9633 0)
+			(at 154.9416 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 151.3824 165.4394 90)
+			(at 151.384 169.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.3984 165.6934 0)
+			(at 152.4 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2914,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 152.3984 165.6934 0)
+			(at 152.4 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,6 +2932,81 @@
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 182.88 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32482fdd-20fe-4143-910f-a616b8fe8ff6")
+		(property "Reference" "Q6"
+			(at 189.23 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 189.23 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 187.96 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec936b7-76b0-4701-921c-2a9aa210f682")
+		)
+		(pin "2"
+			(uuid "de709989-6476-416d-a147-9923f8e9e298")
+		)
+		(pin "3"
+			(uuid "a6318895-b0f6-4dfa-84df-a0d2cc1fb381")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3185,7 +3216,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 116.5796 165.3707 180)
+		(at 115.57 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3194,7 +3225,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f758124-1714-4f88-8e58-f9f4e461a6fd")
 		(property "Reference" "R20"
-			(at 119.38 164.1006 0)
+			(at 118.3704 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3234,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 119.38 166.6406 0)
+			(at 118.3704 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 115.5636 165.1167 90)
+			(at 114.554 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.5796 165.3707 0)
+			(at 115.57 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3261,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 116.5796 165.3707 0)
+			(at 115.57 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.3984 169.5034 0)
+		(at 152.4 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3264,7 +3295,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fcb4beb-ed32-4e8d-81f0-9bc7732aea52")
 		(property "Reference" "#PWR061"
-			(at 152.3984 175.8534 0)
+			(at 152.4 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.3984 174.5834 0)
+			(at 152.4 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.3984 169.5034 0)
+			(at 152.4 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.3984 169.5034 0)
+			(at 152.4 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.3984 169.5034 0)
+			(at 152.4 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3431,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 116.5796 126.0007 0)
+		(at 115.57 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3409,7 +3440,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c899f43-23b2-4f45-80eb-54b18a6887d4")
 		(property "Reference" "#PWR058"
-			(at 116.5796 129.8107 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3449,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 118.11 124.7306 0)
+			(at 117.1004 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.5796 126.0007 0)
+			(at 115.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.5796 126.0007 0)
+			(at 115.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.5796 126.0007 0)
+			(at 115.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,17 +3758,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 182.88 36.83 0)
-		(mirror x)
+		(lib_id "Transistor_FET:AO3401A")
+		(at 220.98 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "683f1670-9d5b-4d3f-8e88-5edde5839907")
-		(property "Reference" "Q3"
-			(at 189.23 35.5599 0)
+		(uuid "658d1006-3472-437c-8462-6490215ca830")
+		(property "Reference" "Q2"
+			(at 227.33 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3776,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 189.23 38.0999 0)
+			(at 227.33 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,73 +3784,49 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 187.96 39.37 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 226.06 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 220.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 182.88 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 182.88 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 182.88 19.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 182.88 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 182.88 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee4e28dc-07d7-4847-821e-0ee625d07584")
 		)
 		(pin "1"
-			(uuid "4e248579-a3bd-4c7c-bf2c-0d3193d0ae4e")
+			(uuid "f969a334-718c-4c10-856e-345d2a726c54")
+		)
+		(pin "2"
+			(uuid "c63adce7-cdc1-459f-ba42-d060352ffbee")
 		)
 		(pin "3"
-			(uuid "5c0d1bb0-60e0-43d6-a8cb-3d42be07e2e1")
+			(uuid "104c0d8b-bfcb-45eb-8ccc-15240cec7db1")
 		)
 		(instances
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3900,6 +3906,81 @@
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 80.01 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "723201c5-454f-4b74-9f4e-f789b2450e15")
+		(property "Reference" "Q12"
+			(at 86.36 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 86.36 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 85.09 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 85.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14669054-7266-4c9e-9624-bf38090cfd43")
+		)
+		(pin "2"
+			(uuid "ee7397cb-3d37-45f9-ba4b-bf293b214c77")
+		)
+		(pin "3"
+			(uuid "5917eed9-692f-4087-af33-2374ed4ffa87")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4204,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.3984 126.3234 0)
+		(at 152.4 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4132,7 +4213,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b6aa038-1b3a-455f-ae3d-4fe87d6f143d")
 		(property "Reference" "#PWR060"
-			(at 152.3984 130.1334 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4222,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 154.94 125.0533 0)
+			(at 154.9416 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.3984 126.3234 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.3984 126.3234 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.3984 126.3234 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,18 +4410,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 78.5434 139.3461 0)
-		(mirror x)
+		(lib_id "Transistor_FET:AO3401A")
+		(at 44.45 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9012acb8-884a-44f5-b0ca-c9762467f400")
-		(property "Reference" "Q8"
-			(at 83.82 138.076 0)
+		(uuid "91d9e963-5716-4fde-a40c-b1b22f169a30")
+		(property "Reference" "Q10"
+			(at 50.8 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4428,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 83.82 140.616 0)
+			(at 50.8 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,73 +4436,49 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 83.6234 141.8861 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 49.53 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 78.5434 126.6461 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 78.5434 139.3461 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 78.5434 122.2011 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 78.5434 120.2961 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 78.5434 124.1061 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bef8e50a-db2d-4f75-b6db-f38651a0825a")
 		)
 		(pin "1"
-			(uuid "1d0764ee-9271-4714-9e34-4f44d3e1ed2f")
+			(uuid "1d75e653-6027-4666-8ede-b79097a6f72a")
+		)
+		(pin "2"
+			(uuid "fb8027d6-7cc1-40eb-95dd-ecb6b0f3bcd5")
 		)
 		(pin "3"
-			(uuid "6ba25884-b0a4-4851-b856-48b42067e238")
+			(uuid "4f386b21-05ad-4c3e-a6e6-da5fbec69dd2")
 		)
 		(instances
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q8")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -4508,109 +4563,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 149.8584 139.0234 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "924f0ce9-f929-472b-9b3a-8396caf0e347")
-		(property "Reference" "Q10"
-			(at 156.21 137.7533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 156.21 140.2933 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 154.9384 141.5634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 149.8584 126.3234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 149.8584 139.0234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 149.8584 121.8784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 149.8584 119.9734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 149.8584 123.7834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c7a36de-ffa2-4a08-a115-ed803e9c7df7")
-		)
-		(pin "1"
-			(uuid "65f434ca-9cad-4a22-8ec5-dd3df6273271")
-		)
-		(pin "3"
-			(uuid "ec9e24d0-6729-401a-a30c-411c00778223")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 81.0834 166.0161 180)
+		(at 82.55 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4619,7 +4573,7 @@
 		(fields_autoplaced yes)
 		(uuid "93ed54f8-1501-4740-a29a-7bddc14692a2")
 		(property "Reference" "R13"
-			(at 83.82 164.746 0)
+			(at 85.2866 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4582,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 83.82 167.286 0)
+			(at 85.2866 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4591,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 80.0674 165.7621 90)
+			(at 81.534 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4600,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.0834 166.0161 0)
+			(at 82.55 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4609,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 81.0834 166.0161 0)
+			(at 82.55 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.5796 169.1807 0)
+		(at 115.57 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4755,7 +4709,7 @@
 		(fields_autoplaced yes)
 		(uuid "96317645-d0d5-4f52-bde5-2213707c95b8")
 		(property "Reference" "#PWR059"
-			(at 116.5796 175.5307 0)
+			(at 115.57 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.5796 174.2607 0)
+			(at 115.57 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.5796 169.1807 0)
+			(at 115.57 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.5796 169.1807 0)
+			(at 115.57 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.5796 169.1807 0)
+			(at 115.57 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4911,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 116.5796 152.6707 90)
+		(at 115.57 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4966,7 +4920,7 @@
 		(fields_autoplaced yes)
 		(uuid "990147d0-2f33-4d95-afa7-cc9183130934")
 		(property "Reference" "D16"
-			(at 120.3896 152.9881 90)
+			(at 119.38 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4929,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 120.3896 155.5281 90)
+			(at 119.38 153.9874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4938,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 116.5796 152.6707 0)
+			(at 115.57 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.5796 152.6707 0)
+			(at 115.57 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +4956,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 116.5796 152.6707 0)
+			(at 115.57 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +4965,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.5796 152.6707 0)
+			(at 115.57 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,18 +4989,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 114.0396 138.7007 0)
-		(mirror x)
+		(lib_id "Transistor_FET:AO3401A")
+		(at 259.08 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9b9c4cf-a7aa-4a9d-b80c-4cc6e2b9aafd")
-		(property "Reference" "Q9"
-			(at 119.38 137.4306 0)
+		(uuid "a1677f83-f8c7-442a-94a3-0dd81b127178")
+		(property "Reference" "Q4"
+			(at 265.43 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5007,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 119.38 139.9706 0)
+			(at 265.43 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,90 +5015,139 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 119.1196 141.2407 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 264.16 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 264.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 259.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 114.0396 126.0007 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 114.0396 138.7007 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 114.0396 121.5557 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 114.0396 119.6507 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 114.0396 123.4607 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63f8c8ea-1078-4988-b9a3-4d99ba033b07")
 		)
 		(pin "1"
-			(uuid "c39171d4-8947-49da-a1f8-2c510b0e0a1b")
+			(uuid "fe612e44-9783-4516-972c-9c3305e12505")
+		)
+		(pin "2"
+			(uuid "bb8d2486-766f-41e0-ad01-c925bd3ac132")
 		)
 		(pin "3"
-			(uuid "b246bf70-ed39-4a1c-ae0c-0b2077f67ad7")
+			(uuid "399bd8d9-6fc0-4865-a49c-88f2e2f533eb")
 		)
 		(instances
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q9")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 44.45 138.43 0)
-		(mirror x)
+		(lib_id "Transistor_FET:AO3401A")
+		(at 113.03 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6649f8d-e66b-40ef-9808-32deaeba92da")
-		(property "Reference" "Q7"
+		(uuid "a75780e8-d918-4bb1-b7b7-ac46779ab4b7")
+		(property "Reference" "Q8"
+			(at 119.38 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 119.38 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 118.11 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 118.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87bf9563-ddca-4db1-ba37-65ccb10f6c00")
+		)
+		(pin "2"
+			(uuid "72723929-5d54-4804-a13a-f6daf8a0301b")
+		)
+		(pin "3"
+			(uuid "eb32f34c-ef1b-4938-a1f7-d28e3572cb95")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 44.45 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae1a76f4-1b6c-465c-a97a-29dd48c9a34b")
+		(property "Reference" "Q9"
 			(at 50.8 137.1599 0)
 			(effects
 				(font
@@ -5164,25 +5165,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 49.53 140.97 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 49.53 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 49.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 44.45 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 44.45 138.43 0)
 			(effects
 				(font
@@ -5191,46 +5195,94 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 44.45 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 44.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 44.45 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "bf2e0c97-bf84-45ca-88c7-2494af869812")
 		)
 		(pin "2"
-			(uuid "26fe5197-de37-49a8-b050-a39f76a05841")
-		)
-		(pin "1"
-			(uuid "9318caf8-2cc9-40f6-8306-5c4ddfc250f2")
+			(uuid "8e54a81e-c840-4154-b3ed-1012aa3f4e25")
 		)
 		(pin "3"
-			(uuid "fd4759b8-b036-40b1-a580-31b4bc4f5c02")
+			(uuid "1d0ea9ca-8e13-4177-84b0-9baf5ccbccae")
 		)
 		(instances
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q7")
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 254 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbb2f3af-0883-4717-9dfa-a40d2c950769")
+		(property "Reference" "Q3"
+			(at 260.35 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 260.35 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 259.08 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 259.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 254 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b0a7117-637e-4b19-acda-489a4a3909ee")
+		)
+		(pin "2"
+			(uuid "e8c02cfb-aa23-448b-b93d-df27ce21785c")
+		)
+		(pin "3"
+			(uuid "69523e5d-b057-4ee5-85ed-5d921952c3bf")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5301,6 +5353,81 @@
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 182.88 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2cc82c5-f59c-421b-8ac6-d41499890a06")
+		(property "Reference" "Q1"
+			(at 189.23 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 189.23 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 187.96 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 182.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7d06b55-3eff-4716-8ba3-ba9141855ebf")
+		)
+		(pin "2"
+			(uuid "e94183a8-ddb9-476f-a5a4-15ed7f92a291")
+		)
+		(pin "3"
+			(uuid "470a58ea-1f73-4bd0-ace3-c4cca59e1788")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5453,7 +5580,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.0834 169.8261 0)
+		(at 82.55 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5462,7 +5589,7 @@
 		(fields_autoplaced yes)
 		(uuid "c72457e6-9c2e-49cd-9a4d-d7d8bc835092")
 		(property "Reference" "#PWR055"
-			(at 81.0834 176.1761 0)
+			(at 82.55 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.0834 174.9061 0)
+			(at 82.55 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.0834 169.8261 0)
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.0834 169.8261 0)
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.0834 169.8261 0)
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5646,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 152.3984 152.9934 90)
+		(at 152.4 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5528,7 +5655,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca49f941-47d1-44a2-830e-d49cbee08708")
 		(property "Reference" "D17"
-			(at 156.2084 153.3108 90)
+			(at 156.21 157.7974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5664,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 156.2084 155.8508 90)
+			(at 156.21 160.3374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5673,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 152.3984 152.9934 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.3984 152.9934 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5691,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 152.3984 152.9934 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5700,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 152.3984 152.9934 0)
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,208 +5794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 182.88 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd8e6c2b-b2b7-4715-acb8-97bcb79327e2")
-		(property "Reference" "Q6"
-			(at 189.23 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 189.23 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 187.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 182.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 182.88 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 182.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 182.88 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef7820f9-e1bc-4db6-9d82-c191c8134b4e")
-		)
-		(pin "1"
-			(uuid "7ee53fcc-8aa5-4302-8921-7946d334eee6")
-		)
-		(pin "3"
-			(uuid "322dec8e-8d17-48c6-b4cf-1293c1dfb09d")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 224.79 97.79 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce4e678a-3f75-4a64-a274-cc531c8052a8")
-		(property "Reference" "Q5"
-			(at 231.14 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 231.14 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 229.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 224.79 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 224.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 224.79 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 224.79 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 224.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "54605d95-a984-47a0-bf5a-b9df1f20f0de")
-		)
-		(pin "1"
-			(uuid "6cc9c892-31ef-4c64-b3f6-077f835e121f")
-		)
-		(pin "3"
-			(uuid "2d767c3d-a5f4-4581-a861-77214f9e76e3")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 223.52 66.04 0)
 		(unit 1)
@@ -5929,6 +5854,81 @@
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 149.86 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d097b615-211a-4a22-80e3-016a73c79ca6")
+		(property "Reference" "Q7"
+			(at 156.21 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 156.21 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 154.94 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 154.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "062b0cbe-3f87-412d-83da-28ecbcd6d3af")
+		)
+		(pin "2"
+			(uuid "7f4d049d-fe1d-498a-a3ab-eb3a13169a4d")
+		)
+		(pin "3"
+			(uuid "7e15fc43-2d73-4e84-8189-36de0cd2ddc5")
+		)
+		(instances
+			(project "CoreBoard"
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -6081,310 +6081,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 254 36.83 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e809a077-3db0-4696-959c-8c27eb908cf1")
-		(property "Reference" "Q1"
-			(at 260.35 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 260.35 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 259.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 254 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 254 19.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 254 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 254 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef74db7d-1218-4b4b-8d70-1e7ee2fe147e")
-		)
-		(pin "1"
-			(uuid "58606e04-3c75-43ac-b714-4d400cd87c60")
-		)
-		(pin "3"
-			(uuid "249d0e52-d6b2-459f-a5af-666ec808adbb")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 220.98 36.83 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1d6d93a-b427-4906-8de4-2ca335684221")
-		(property "Reference" "Q4"
-			(at 227.33 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 227.33 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 226.06 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 220.98 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 220.98 19.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 220.98 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 220.98 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5ec72fd-bc02-4149-98bb-f26dec090145")
-		)
-		(pin "1"
-			(uuid "f5af8d77-0bf9-4439-8084-4cc5cbcdb45b")
-		)
-		(pin "3"
-			(uuid "817eb0c8-b6a4-4d17-b2f0-8e3c348524e6")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 44.45 80.01 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f41f17b0-e0d1-4732-9f8c-f65a744f4960")
-		(property "Reference" "Q11"
-			(at 50.8 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 50.8 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CoreBoard:SOT-23-3L_AOS-L"
-			(at 49.53 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 44.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 44.45 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 44.45 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 44.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ad8ac1f-e283-4a7a-9907-f8c69a260d91")
-		)
-		(pin "1"
-			(uuid "7a3303d5-45cd-4676-89b5-127e4212f31d")
-		)
-		(pin "3"
-			(uuid "4e748e1e-5733-462f-9428-cedcd8097faa")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/6adb53bb-09b4-436b-a1bf-bacbe5a69a87"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 81.0834 126.6461 0)
+		(at 82.55 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6393,7 +6091,7 @@
 		(fields_autoplaced yes)
 		(uuid "f64c3cb6-c9ab-4905-a6b1-fb38b3528cd7")
 		(property "Reference" "#PWR042"
-			(at 81.0834 130.4561 0)
+			(at 82.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6100,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 82.55 125.376 0)
+			(at 84.0166 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.0834 126.6461 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.0834 126.6461 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 81.0834 126.6461 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
