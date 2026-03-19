@@ -2499,10 +2499,6 @@
 		(uuid "982978f3-b427-4d40-bbb0-801c45d1f8b1")
 	)
 	(no_connect
-		(at 71.12 116.84)
-		(uuid "a2878e53-98e7-4aa3-9999-0f55ce0c15fe")
-	)
-	(no_connect
 		(at 165.1 72.39)
 		(uuid "aaf5019e-2e19-47c4-91bd-9b1697830267")
 	)
@@ -3491,8 +3487,8 @@
 		)
 		(uuid "10d4824b-8c56-4765-b8d2-12b4d40f5533")
 	)
-	(hierarchical_label "FTACH2"
-		(shape input)
+	(hierarchical_label "RStrip"
+		(shape output)
 		(at 71.12 114.3 180)
 		(effects
 			(font
@@ -3744,6 +3740,17 @@
 		)
 		(uuid "83b70289-f8e2-49a1-a8b8-190d806cd28e")
 	)
+	(hierarchical_label "GStrip"
+		(shape output)
+		(at 71.12 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87c40748-529d-47a1-bfbc-58e225dacd76")
+	)
 	(hierarchical_label "FL_RX"
 		(shape input)
 		(at 71.12 99.06 180)
@@ -3799,7 +3806,7 @@
 		)
 		(uuid "a8aa0c98-97c3-4c90-a6f3-f208df736be3")
 	)
-	(hierarchical_label "FPWM2"
+	(hierarchical_label "BStrip"
 		(shape output)
 		(at 121.92 96.52 0)
 		(effects
