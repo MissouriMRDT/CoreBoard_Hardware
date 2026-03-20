@@ -4056,6 +4056,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 127 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef8b182-9853-4b3c-b7bf-e87f97a2d36f")
+		(property "Reference" "#PWR062"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce405ecb-3ae3-475e-9e04-72fb8c7f2bb9")
+		)
+		(instances
+			(project ""
+				(path "/044aaf9e-f771-40cc-9be3-702621321f68/57e020f8-1646-4067-ba97-4c1dc8d311da"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 44.45 151.13 180)
 		(unit 1)
@@ -4197,72 +4263,6 @@
 			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/57e020f8-1646-4067-ba97-4c1dc8d311da"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 127 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fb233c8-ea81-4d4a-b5dc-4178bf0765c7")
-		(property "Reference" "#PWR062"
-			(at 127 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 127 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 127 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd29738e-a396-453b-b32a-f09c5fd9cff2")
-		)
-		(instances
-			(project "CoreBoard"
-				(path "/044aaf9e-f771-40cc-9be3-702621321f68/57e020f8-1646-4067-ba97-4c1dc8d311da"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)

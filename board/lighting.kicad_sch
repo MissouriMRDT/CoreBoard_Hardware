@@ -1110,6 +1110,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 71.12) (xy 252.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38970cf9-fd48-44ac-b267-5e49a234b954")
+	)
+	(wire
+		(pts
 			(xy 241.3 107.95) (xy 241.3 115.57)
 		)
 		(stroke
@@ -1127,6 +1137,16 @@
 			(type default)
 		)
 		(uuid "3c8656b0-e829-4b61-bee7-718144a62a1c")
+	)
+	(wire
+		(pts
+			(xy 181.61 76.2) (xy 257.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5740ff-8fb7-4e49-b20e-3f694bbdcc32")
 	)
 	(wire
 		(pts
@@ -1150,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 73.66) (xy 233.68 73.66)
+			(xy 223.52 73.66) (xy 257.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1200,16 +1220,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 83.82) (xy 252.73 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96302720-363e-4eb9-8d77-6225c9eaa2cf")
-	)
-	(wire
-		(pts
 			(xy 181.61 106.68) (xy 181.61 115.57)
 		)
 		(stroke
@@ -1230,17 +1240,17 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 83.82) (xy 233.68 76.2)
+			(xy 252.73 71.12) (xy 252.73 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a14cba77-3007-44d2-9740-de1dc937d039")
+		(uuid "9e98f3b2-4209-46d3-8140-aa73762583c1")
 	)
 	(wire
 		(pts
-			(xy 196.85 68.58) (xy 233.68 68.58)
+			(xy 196.85 68.58) (xy 257.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1300,16 +1310,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 95.25) (xy 252.73 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df489350-7f58-48f0-bac1-0c878d9bdae3")
-	)
-	(wire
-		(pts
 			(xy 143.51 88.9) (xy 143.51 86.36)
 		)
 		(stroke
@@ -1330,17 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 233.68 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee3e9323-6773-4378-85af-fb51c39aa337")
-	)
-	(wire
-		(pts
-			(xy 181.61 96.52) (xy 181.61 71.12)
+			(xy 181.61 96.52) (xy 181.61 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2323,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_04")
-		(at 238.76 77.47 0)
+		(at 262.89 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2342,7 +2332,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0741af1-cb14-4f6c-9b8e-d0452cbf9336")
 		(property "Reference" "Conn9"
-			(at 242.57 71.1199 0)
+			(at 266.7 71.1199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2351,7 +2341,7 @@
 			)
 		)
 		(property "Value" "Molex_SL_04"
-			(at 242.57 73.6599 0)
+			(at 266.7 73.6599 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2360,7 +2350,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
-			(at 238.76 77.47 0)
+			(at 262.89 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2369,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 77.47 0)
+			(at 262.89 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2378,7 +2368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 77.47 0)
+			(at 262.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,234 @@
+(footprint "SW_EG1218"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.54 -3.175 0)
+		(layer "F.SilkS")
+		(uuid "dfbda4ce-9bba-4988-98f2-4a320de08286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_EG1218"
+		(at 0 3.175 0)
+		(layer "F.Fab")
+		(uuid "173b8e3f-4025-44e9-aa49-b1813754682d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89e8c33a-96b4-4335-a0b8-f25746bbaecc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f5f8686-4b20-4d5a-80a8-b4c3a719b638")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.8 -2)
+		(end 5.8 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65696475-8681-4093-a8c7-de43d0d77e7b")
+	)
+	(fp_line
+		(start -5.8 2)
+		(end -5.8 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c45ec1ff-37e7-4b57-b765-f036a83c7779")
+	)
+	(fp_line
+		(start 5.8 -2)
+		(end 5.8 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2dc1204e-9726-4b2b-a65c-ec2c9bea6d54")
+	)
+	(fp_line
+		(start 5.8 2)
+		(end -5.8 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f06b8f2d-0a6c-40c1-bce6-912f005e2d87")
+	)
+	(fp_circle
+		(center -2.5 2.5)
+		(end -2.4 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1b1888a7-efc1-4e95-a31f-75edd61028ff")
+	)
+	(fp_line
+		(start -6.05 -2.25)
+		(end 6.05 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9787d5db-cb5b-4f9c-a068-07ddb5a60028")
+	)
+	(fp_line
+		(start -6.05 2.25)
+		(end -6.05 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "395a041b-0157-43ea-b897-60ae0af5523b")
+	)
+	(fp_line
+		(start 6.05 -2.25)
+		(end 6.05 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91e6d998-b790-4b4f-97b7-25938943cc54")
+	)
+	(fp_line
+		(start 6.05 2.25)
+		(end -6.05 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af767479-765c-4bc9-8a81-f25efe9c5a72")
+	)
+	(fp_line
+		(start -5.8 -2)
+		(end 5.8 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65e92e6d-4c7c-4398-b8ff-f30f6b1581b9")
+	)
+	(fp_line
+		(start -5.8 2)
+		(end -5.8 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "781bd51c-2e22-4d9b-a6ac-af5f919b8f53")
+	)
+	(fp_line
+		(start 5.8 -2)
+		(end 5.8 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cd3efe6-24be-40ee-9def-faaaa0919f4a")
+	)
+	(fp_line
+		(start 5.8 2)
+		(end -5.8 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "853c111c-b279-402e-9909-d8b2cdc956d4")
+	)
+	(fp_circle
+		(center -2.5 2.5)
+		(end -2.4 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "59a6f3e6-a3b9-4e33-bb9b-f0fb3914e215")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ac54ebad-5979-405a-8ba6-88b64c95f16b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3bb92b95-a6c3-4102-9f5f-1d710777530b")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a964e099-ed33-43b4-a0cc-accee692f81f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/Models/EG1218.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
