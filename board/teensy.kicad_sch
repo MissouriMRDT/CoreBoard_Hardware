@@ -4330,7 +4330,7 @@
 			(uuid "febf2187-1c35-4d8d-a500-7d6e250ff7c7")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/e24e2390-8ccf-4982-9535-0d66b2e1c064"
 					(reference "#PWR034")
 					(unit 1)

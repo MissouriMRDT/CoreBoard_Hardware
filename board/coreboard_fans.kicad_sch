@@ -801,7 +801,7 @@
 			(uuid "5a4268e0-c6db-4251-907c-39ba67f2f691")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/8333a175-8bb7-4f65-80dd-24751b689a19"
 					(reference "#PWR068")
 					(unit 1)
@@ -869,7 +869,7 @@
 			(uuid "93b4aab8-c0eb-4fe0-9e00-fbce18853d83")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/8333a175-8bb7-4f65-80dd-24751b689a19"
 					(reference "R25")
 					(unit 1)
@@ -935,7 +935,7 @@
 			(uuid "0b09f7f6-18af-4b23-baad-db80a1b67690")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/8333a175-8bb7-4f65-80dd-24751b689a19"
 					(reference "#PWR065")
 					(unit 1)
@@ -1005,7 +1005,7 @@
 			(uuid "f924b5f4-37d3-4125-b2a2-795b2b241cb4")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/8333a175-8bb7-4f65-80dd-24751b689a19"
 					(reference "R26")
 					(unit 1)
@@ -1075,7 +1075,7 @@
 			(uuid "4b62221c-4a59-412a-801b-ff527cd43c3b")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/8333a175-8bb7-4f65-80dd-24751b689a19"
 					(reference "R24")
 					(unit 1)
@@ -1141,7 +1141,7 @@
 			(uuid "43ca30bf-4162-4f57-ae4f-0c8fc3008c30")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/8333a175-8bb7-4f65-80dd-24751b689a19"
 					(reference "#PWR066")
 					(unit 1)
@@ -1217,7 +1217,7 @@
 			(uuid "049a55ac-e43a-4742-8348-afdc1920defc")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/8333a175-8bb7-4f65-80dd-24751b689a19"
 					(reference "Conn2")
 					(unit 1)

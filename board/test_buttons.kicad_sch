@@ -2512,7 +2512,7 @@
 			(uuid "e4f080ad-ca97-4a2e-881e-58c05ced3f0d")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/bed1aa92-c39d-45d0-9b54-3a75fbffb37b"
 					(reference "S1")
 					(unit 1)
@@ -2578,7 +2578,7 @@
 			(uuid "232cf346-838d-41c4-8424-b7e32510815b")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/bed1aa92-c39d-45d0-9b54-3a75fbffb37b"
 					(reference "#PWR039")
 					(unit 1)

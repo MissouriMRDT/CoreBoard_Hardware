@@ -1024,7 +1024,7 @@
 			(uuid "615e9a52-7f43-4580-aa7a-21e12391f479")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/dbf89e1d-f490-429e-afa9-0c11320fe82e"
 					(reference "Conn5")
 					(unit 1)
@@ -1364,7 +1364,7 @@
 			(uuid "5c022828-14df-4410-86d2-0e7996b95a7a")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/dbf89e1d-f490-429e-afa9-0c11320fe82e"
 					(reference "#PWR015")
 					(unit 1)
@@ -1430,7 +1430,7 @@
 			(uuid "955b25f4-f981-4afd-b6f6-6fdebf84a992")
 		)
 		(instances
-			(project ""
+			(project "CoreBoard"
 				(path "/044aaf9e-f771-40cc-9be3-702621321f68/dbf89e1d-f490-429e-afa9-0c11320fe82e"
 					(reference "#PWR018")
 					(unit 1)
