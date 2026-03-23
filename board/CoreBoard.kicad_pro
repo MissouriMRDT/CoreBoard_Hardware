@@ -507,7 +507,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../manufacture/",
+      "plot": "CoreBoard_Gerbs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "R:/marsrover/Technical/MRDT 2026/PART_DATA/BOARDS/STEP files/CoreBoard.step",
