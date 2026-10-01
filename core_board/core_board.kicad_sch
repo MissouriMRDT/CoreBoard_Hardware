@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 127 33.02)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77f19b6f-fa72-4932-9cd3-32a2305647f7")
+		(property "Sheetname" "Temp_Sensor"
+			(at 127 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp_sensor.kicad_sch"
+			(at 127 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "core_board"
+				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 43.18 53.34)
 		(size 63.5 33.02)
 		(exclude_from_sim no)
