@@ -661,7 +661,7 @@
         "uuid": "e01d6047-065c-44c8-9643-8ab57e6ffae6"
       }
     ],
-    "used_designators": "R1-6,J1-3,L1-2,D1-4,#PWR1-20,#PWR73,GreenLED3,U1-2,C1-9,Q1",
+    "used_designators": "R1-22,J1-12,L1-2,D1-4,#PWR1-52,#PWR73,GreenLED3,U1-5,C1-10,Q1",
     "variants": []
   },
   "sheets": [
@@ -671,7 +671,7 @@
     ],
     [
       "99860962-d8ec-450a-a69d-1c445546f8f2",
-      "Untitled Sheet"
+      "Power"
     ],
     [
       "77f19b6f-fa72-4932-9cd3-32a2305647f7",
@@ -680,6 +680,14 @@
     [
       "0821296c-e776-4b7d-a341-e654d9052318",
       "Testing buttons"
+    ],
+    [
+      "484197b8-3571-44f1-846b-0b6f9c5f5a1e",
+      "Microcontroller"
+    ],
+    [
+      "1e3ab302-e360-416c-88e3-133e033fb1f0",
+      "Connectors"
     ]
   ],
   "text_variables": {},
