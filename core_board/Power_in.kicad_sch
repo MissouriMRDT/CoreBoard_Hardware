@@ -1081,10 +1081,11 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
+			(property "Reference" "J1"
+				(at 8.89 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1092,9 +1093,10 @@
 				)
 			)
 			(property "Value" "Molex_Megafit_02"
-				(at 8.89 4.064 0)
+				(at 8.89 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1279,7 +1281,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 0 0 0)
 					(length 5.08)
 					(name "1"
@@ -1297,7 +1299,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
