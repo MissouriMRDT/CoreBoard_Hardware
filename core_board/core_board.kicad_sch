@@ -105,18 +105,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 149.86 115.57)
-		(uuid "7d60e293-2f2e-45eb-b0e5-109908da8f33")
-	)
-	(no_connect
-		(at 149.86 118.11)
-		(uuid "8173dac3-7444-4bb0-acb0-f1ed9f8a1b3f")
-	)
-	(no_connect
-		(at 149.86 120.65)
-		(uuid "f230ebde-d7c2-4672-a79b-d81b2de63fdb")
-	)
 	(wire
 		(pts
 			(xy 144.78 54.61) (xy 149.86 54.61)
@@ -1128,36 +1116,6 @@
 		(pin "Spare2" input
 			(at 149.86 96.52 180)
 			(uuid "19564a87-9283-4f6f-b082-c3e23fe532a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Tach1" input
-			(at 149.86 115.57 180)
-			(uuid "80ce8913-2533-47f0-8cd9-68fb3c36c641")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Tach2" input
-			(at 149.86 118.11 180)
-			(uuid "9be2825f-7a26-4668-9615-5d5fa5ebef67")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Tach3" input
-			(at 149.86 120.65 180)
-			(uuid "736f4ffb-0891-4d33-9f82-bdee72a1a79d")
 			(effects
 				(font
 					(size 1.27 1.27)
