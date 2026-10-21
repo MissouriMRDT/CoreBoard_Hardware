@@ -8995,7 +8995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-https://www.digikey.com/en/products/detail/vicor-corporation/PI5101-01-LGIZ/2774790?s=N4IgjCBcoGwAwyqAxlAZgQwDYGcCmANCAPZQDaIAzAOwAcAnIyALpEAOALlCAMocBOASwB2AcxABfImEaUkIVJEy5CJcuGowYYRKxCdufIWMlEAtImgKoAgK6rSkCnOYSpIAEzrhZgLbEcNDwuPQBWeTYoMHZIyA9QtyA"
 			(at 121.92 176.53 0)
 			(hide yes)
 			(show_name no)
