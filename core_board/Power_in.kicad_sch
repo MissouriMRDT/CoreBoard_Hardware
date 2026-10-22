@@ -5871,7 +5871,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "14uH"
 			(at 104.14 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
