@@ -2164,7 +2164,7 @@
 		(uuid "6f2e8e80-4ceb-49e7-909f-c4a013be2fc7")
 	)
 	(no_connect
-		(at 92.71 80.01)
+		(at 92.71 63.5)
 		(uuid "9e87ad1e-4778-4ada-accb-16d8289150ce")
 	)
 	(wire
@@ -2276,16 +2276,6 @@
 			(type default)
 		)
 		(uuid "2da005a7-327a-49fd-9623-a285971669be")
-	)
-	(wire
-		(pts
-			(xy 88.9 63.5) (xy 92.71 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e06a2a6-b1b4-4273-ba76-447e890dac5f")
 	)
 	(wire
 		(pts
@@ -2726,6 +2716,16 @@
 			(type default)
 		)
 		(uuid "cd3a5764-1f8f-46ee-b327-7139aaf7dbe1")
+	)
+	(wire
+		(pts
+			(xy 88.9 80.01) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd681ba8-411c-4df3-bb55-7e3c0627fd25")
 	)
 	(wire
 		(pts
@@ -3211,7 +3211,7 @@
 	)
 	(hierarchical_label "TEMP_OUT"
 		(shape input)
-		(at 88.9 63.5 180)
+		(at 88.9 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)

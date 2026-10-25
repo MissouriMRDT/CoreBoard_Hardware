@@ -172,7 +172,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,7 +183,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -196,7 +194,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -472,7 +469,6 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
-      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -487,6 +483,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -639,27 +636,19 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
-    },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -669,21 +658,17 @@
     "top_level_sheets": [
       {
         "filename": "core_board.kicad_sch",
-        "name": "core_board",
+        "name": "Root",
         "uuid": "e01d6047-065c-44c8-9643-8ab57e6ffae6"
       }
     ],
-<<<<<<< HEAD
-    "used_designators": "#PWR1-104,C1-11,D1-18,GreenLED3,H1-4,J1-15,L1-2,Q1-23,R1-55,S1-2,SW1-7,TH1,U1-5",
-=======
-    "used_designators": "#PWR1-91,D1-12,L1-2,C1-11,TH1,GreenLED3,J1-15,R1-41,Q1-17,SW1-7,U1-5,S1-2,H1-4",
->>>>>>> 7a16352198a7324ea1eeb5ec63198a53f7bacf43
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "e01d6047-065c-44c8-9643-8ab57e6ffae6",
-      "core_board"
+      "Root"
     ],
     [
       "99860962-d8ec-450a-a69d-1c445546f8f2",
