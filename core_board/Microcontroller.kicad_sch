@@ -3220,6 +3220,17 @@
 		)
 		(uuid "3555a708-3bfd-409c-8441-df44b8d34730")
 	)
+	(hierarchical_label "electromagnet"
+		(shape output)
+		(at 120.65 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "431ccca9-260e-4079-b4a0-9f984f788c1c")
+	)
 	(hierarchical_label "SMOCO_LED"
 		(shape output)
 		(at 120.65 85.09 0)
@@ -3318,17 +3329,6 @@
 			(justify right)
 		)
 		(uuid "887eedb4-5c65-4f2d-9eee-9b391c9a98f9")
-	)
-	(hierarchical_label "Spare1_PWM"
-		(shape output)
-		(at 120.65 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89039be2-e652-407d-aa59-1505ca019f5f")
 	)
 	(hierarchical_label "LeftTilt_PWM"
 		(shape output)

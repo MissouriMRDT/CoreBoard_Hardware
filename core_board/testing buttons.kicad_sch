@@ -1489,6 +1489,10 @@
 		(at 57.15 134.62)
 		(uuid "21023fcb-e837-4c44-b023-eabaced5ffee")
 	)
+	(no_connect
+		(at 144.78 125.73)
+		(uuid "652144a0-ff2a-442a-ac2e-656253ee8557")
+	)
 	(wire
 		(pts
 			(xy 184.15 30.48) (xy 184.15 26.67)
