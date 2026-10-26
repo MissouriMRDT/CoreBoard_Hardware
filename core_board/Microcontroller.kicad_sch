@@ -3220,6 +3220,17 @@
 		)
 		(uuid "3555a708-3bfd-409c-8441-df44b8d34730")
 	)
+	(hierarchical_label "electromagnet"
+		(shape output)
+		(at 120.65 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "431ccca9-260e-4079-b4a0-9f984f788c1c")
+	)
 	(hierarchical_label "SMOCO_LED"
 		(shape output)
 		(at 120.65 85.09 0)
@@ -3318,17 +3329,6 @@
 			(justify right)
 		)
 		(uuid "887eedb4-5c65-4f2d-9eee-9b391c9a98f9")
-	)
-	(hierarchical_label "Spare1_PWM"
-		(shape output)
-		(at 120.65 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89039be2-e652-407d-aa59-1505ca019f5f")
 	)
 	(hierarchical_label "LeftTilt_PWM"
 		(shape output)
@@ -3562,7 +3562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8167bd-b112-482f-a7a1-1bbef3927aad")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 104.775 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3753,7 +3753,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/484197b8-3571-44f1-846b-0b6f9c5f5a1e"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ceac29f-6380-42d7-8be3-1f8df62980f0")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 215.9 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,7 +3835,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/484197b8-3571-44f1-846b-0b6f9c5f5a1e"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65fbdd91-466f-41b3-bd80-52ad58b56a8f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR051"
 			(at 127 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3913,7 +3913,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/484197b8-3571-44f1-846b-0b6f9c5f5a1e"
-					(reference "#PWR022")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3931,7 +3931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4f321a-4d69-4a81-a92a-0e81c909a67c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR052"
 			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3991,7 +3991,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/484197b8-3571-44f1-846b-0b6f9c5f5a1e"
-					(reference "#PWR021")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e144bb68-d91e-48d7-bf59-945385841946")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR050"
 			(at 121.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4183,7 +4183,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/484197b8-3571-44f1-846b-0b6f9c5f5a1e"
-					(reference "#PWR020")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4201,7 +4201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e53d1440-a62e-4e8d-bf4d-27704d68c965")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR053"
 			(at 212.09 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4261,7 +4261,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/484197b8-3571-44f1-846b-0b6f9c5f5a1e"
-					(reference "#PWR023")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
