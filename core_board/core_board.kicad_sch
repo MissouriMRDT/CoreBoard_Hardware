@@ -455,6 +455,17 @@
 		)
 		(uuid "f8441147-60f3-494e-9bdd-6a3741b250ee")
 	)
+	(hierarchical_label "electromagnet"
+		(shape input)
+		(at 144.78 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41258073-4941-4b4c-b894-d021dc979e3e")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 236.22 40.64 0)
@@ -1103,7 +1114,7 @@
 				(justify left)
 			)
 		)
-		(pin "Spare1" input
+		(pin "electromagnet" input
 			(at 149.86 99.06 180)
 			(uuid "88720366-fd3a-4a86-97c1-6d6fd3cce40c")
 			(effects
