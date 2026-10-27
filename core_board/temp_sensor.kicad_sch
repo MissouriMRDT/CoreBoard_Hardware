@@ -1271,7 +1271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Shields:RoveNode_H5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 130.5052 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1353,7 +1353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.716 85.344 90)
 			(hide yes)
 			(show_name no)
