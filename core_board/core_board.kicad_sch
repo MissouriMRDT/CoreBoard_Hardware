@@ -5,17 +5,14 @@
 	(uuid "e01d6047-065c-44c8-9643-8ab57e6ffae6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "MRDT_Connectors:4_40_Mounting_Hole_Pad"
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
+			(property "Reference" "U"
+				(at 0 3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -24,8 +21,111 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4_40_Mounting_Hole_Pad_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4_40_Mounting_Hole_Pad_1_1"
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -56,7 +156,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -67,7 +167,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -78,27 +178,37 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
 					(stroke
-						(width 1.27)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -197,6 +307,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 63.5) (xy 260.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4add4bb7-24d1-44b7-a1d9-bf34b47dd279")
+	)
+	(wire
+		(pts
 			(xy 144.78 148.59) (xy 149.86 148.59)
 		)
 		(stroke
@@ -247,6 +367,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 40.64) (xy 266.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbea0ad-fe06-48e4-987c-4b9394b4abbd")
+	)
+	(wire
+		(pts
 			(xy 144.78 83.82) (xy 149.86 83.82)
 		)
 		(stroke
@@ -254,6 +384,16 @@
 			(type default)
 		)
 		(uuid "69693d1f-de06-439e-8830-2350e875432c")
+	)
+	(wire
+		(pts
+			(xy 256.54 48.26) (xy 260.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b553dc9-cbe3-466a-a1c1-aec6a6168c97")
 	)
 	(wire
 		(pts
@@ -347,6 +487,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 40.64) (xy 266.7 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a604d10b-f999-448b-92af-5c7b3933352e")
+	)
+	(wire
+		(pts
 			(xy 144.78 31.75) (xy 149.86 31.75)
 		)
 		(stroke
@@ -407,6 +557,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 39.37) (xy 269.24 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d4af62-4844-435e-b3b8-ae207c61b798")
+	)
+	(wire
+		(pts
 			(xy 144.78 49.53) (xy 149.86 49.53)
 		)
 		(stroke
@@ -447,6 +607,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 55.88) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fdf0a1-e7a9-4c16-a539-bc3a167abf34")
+	)
+	(wire
+		(pts
 			(xy 144.78 127) (xy 149.86 127)
 		)
 		(stroke
@@ -467,41 +637,40 @@
 		(uuid "41258073-4941-4b4c-b894-d021dc979e3e")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 236.22 40.64 0)
+		(lib_id "power:GND")
+		(at 260.35 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6884b8a9-7876-48dd-9f9c-4516393c2843")
-		(property "Reference" "H2"
-			(at 238.76 39.3699 0)
+		(uuid "07798669-9ef8-4311-95a7-ec779c91ddc7")
+		(property "Reference" "#PWR074"
+			(at 260.35 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 238.76 41.9099 0)
+		(property "Value" "GND"
+			(at 260.35 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
-			(at 236.22 40.64 0)
+		(property "Footprint" ""
+			(at 260.35 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -512,7 +681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 40.64 0)
+			(at 260.35 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -522,8 +691,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 236.22 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -532,30 +701,33 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "24953ed2-62d1-4050-9f78-403561fbac25")
 		)
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
-					(reference "H2")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 236.22 46.99 0)
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 260.35 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7403a2e5-8ebb-4da6-9ef6-8ec816928c09")
-		(property "Reference" "H3"
-			(at 238.76 45.7199 0)
+		(uuid "10bf8ddd-2da3-4317-aa5e-4c25c49132ee")
+		(property "Reference" "U7"
+			(at 262.89 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -565,19 +737,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 238.76 48.2599 0)
+		(property "Value" ""
+			(at 260.35 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
-			(at 236.22 46.99 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -588,7 +759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 46.99 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -598,8 +769,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 236.22 46.99 0)
+		(property "Description" ""
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -608,30 +779,33 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "2745f029-4463-43d2-bdc2-599fe5865996")
 		)
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
-					(reference "H3")
+					(reference "U7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 236.22 53.34 0)
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 260.35 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c74e3462-b50a-43ec-bb07-d540e516461f")
-		(property "Reference" "H4"
-			(at 238.76 52.0699 0)
+		(uuid "2493e1df-9164-4c0e-b63a-104d9ad7165b")
+		(property "Reference" "U8"
+			(at 262.89 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -641,19 +815,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 238.76 54.6099 0)
+		(property "Value" ""
+			(at 260.35 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
-			(at 236.22 53.34 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+			(at 260.35 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -664,7 +837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 53.34 0)
+			(at 260.35 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -674,8 +847,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 236.22 53.34 0)
+		(property "Description" ""
+			(at 260.35 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -684,30 +857,33 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "0da59ef4-a1cb-40b8-8ef1-ca1241c24a26")
 		)
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
-					(reference "H4")
+					(reference "U8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 236.22 34.29 0)
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 260.35 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd70d312-2930-4dd9-b096-5ea950b84397")
-		(property "Reference" "H1"
-			(at 238.76 33.0199 0)
+		(uuid "2672cfe8-516d-442e-ab42-85abe99fd230")
+		(property "Reference" "U6"
+			(at 262.89 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -717,19 +893,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 238.76 35.5599 0)
+		(property "Value" ""
+			(at 260.35 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
-			(at 236.22 34.29 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+			(at 260.35 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -740,7 +915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 34.29 0)
+			(at 260.35 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -750,8 +925,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 236.22 34.29 0)
+		(property "Description" ""
+			(at 260.35 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -760,11 +935,326 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "1edfa575-504c-4777-b097-6b7e08de8d77")
 		)
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
-					(reference "H1")
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df61a55-6a9c-49a0-b683-8c0a97bed4fc")
+		(property "Reference" "#PWR092"
+			(at 266.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e6f4be5-0f40-4fd7-a96e-b71c72d190ff")
+		)
+		(instances
+			(project "core_board"
+				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8014b622-c173-462e-b342-5679461d5827")
+		(property "Reference" "#PWR094"
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5dd0e19-2c11-40ce-aec3-aec932b65f34")
+		)
+		(instances
+			(project "core_board"
+				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b50fea82-5bd5-4fab-910c-0f84ba9b6e45")
+		(property "Reference" "#PWR093"
+			(at 256.54 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4acfc155-411c-4f57-b938-6e5c83106f8f")
+		)
+		(instances
+			(project "core_board"
+				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 259.08 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d68631e9-f1bf-4238-9fb5-dfca1e93a955")
+		(property "Reference" "U5"
+			(at 261.62 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 259.08 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+			(at 259.08 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e74ba53a-a562-4dbf-b690-a424a5a864b4")
+		)
+		(instances
+			(project "core_board"
+				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
+					(reference "U5")
 					(unit 1)
 				)
 			)
