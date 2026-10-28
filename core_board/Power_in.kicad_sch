@@ -8106,7 +8106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL1050"
 			(at 104.14 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8346,7 +8346,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 163.83 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8357,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/MLZ1608M4R7WT000/2465149"
 			(at 163.83 34.29 0)
 			(hide yes)
 			(show_name no)

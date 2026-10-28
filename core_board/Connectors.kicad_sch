@@ -3564,7 +3564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 102.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5016,7 +5016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5182,7 +5182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5742,7 +5742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 213.36 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5824,7 +5824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6888,7 +6888,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 255.27 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7126,7 +7126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7471,7 +7471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 133.35 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7641,7 +7641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 250.19 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8049,7 +8049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 121.92 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8219,7 +8219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 210.82 81.28 0)
 			(hide yes)
 			(show_name no)
