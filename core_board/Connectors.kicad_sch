@@ -3943,7 +3943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577aa565-5fcf-486f-a96e-01a4ecb46279")
-		(property "Reference" "J4"
+		(property "Reference" "J4Serv1"
 			(at 58.42 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4013,7 +4013,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
-					(reference "J4")
+					(reference "J4Serv1")
 					(unit 1)
 				)
 			)
@@ -6301,7 +6301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c503363b-e182-4bdf-a363-a7e342b0d6c1")
-		(property "Reference" "R32"
+		(property "Reference" "R32Serv1"
 			(at 50.8 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6365,7 +6365,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
-					(reference "R32")
+					(reference "R32Serv1")
 					(unit 1)
 				)
 			)
