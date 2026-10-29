@@ -1168,7 +1168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b09186d-0a08-4c23-b09a-3aef3de946ef")
-		(property "Reference" "TH1"
+		(property "Reference" "THe"
 			(at 142.24 99.3774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1201,7 +1201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/50/db/ntc/NTC_SMD_Standard_series_0402.pdf"
 			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1232,7 +1232,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/77f19b6f-fa72-4932-9cd3-32a2305647f7"
-					(reference "TH1")
+					(reference "THe")
 					(unit 1)
 				)
 			)
