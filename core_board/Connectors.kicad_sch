@@ -4453,7 +4453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Cyntec_MUN12AD01-SH"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 53.34 95.25 0)
 			(hide yes)
 			(show_name no)

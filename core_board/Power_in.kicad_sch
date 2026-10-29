@@ -7813,7 +7813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 58.42 40.64 0)
 			(hide yes)
 			(show_name no)

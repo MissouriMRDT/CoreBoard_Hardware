@@ -4858,7 +4858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CoreBoard:DIPS762W56P254L991H597Q6N"
+		(property "Footprint" "94HBBBO6T:DIPS762W56P254L991H597Q6N"
 			(at 53.34 229.54 0)
 			(hide yes)
 			(show_name no)
