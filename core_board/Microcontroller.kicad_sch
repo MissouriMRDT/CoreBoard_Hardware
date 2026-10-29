@@ -2179,16 +2179,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 116.84 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078f5491-bcce-4662-9688-29b1ad3c2a48")
-	)
-	(wire
-		(pts
 			(xy 116.84 41.91) (xy 133.35 41.91)
 		)
 		(stroke
@@ -2276,16 +2266,6 @@
 			(type default)
 		)
 		(uuid "2da005a7-327a-49fd-9623-a285971669be")
-	)
-	(wire
-		(pts
-			(xy 120.65 64.77) (xy 116.84 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326ac9c5-bd98-4c78-b437-49a7fbdf2bdb")
 	)
 	(wire
 		(pts
@@ -2566,16 +2546,6 @@
 			(type default)
 		)
 		(uuid "b090e55a-2803-4153-abce-a250dcce6f6a")
-	)
-	(wire
-		(pts
-			(xy 120.65 69.85) (xy 116.84 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b36c3f-0ec2-4c1f-8cc7-8d7db7214f80")
 	)
 	(wire
 		(pts
@@ -3198,17 +3168,6 @@
 		)
 		(uuid "154e704e-de09-436e-858c-fe8705c81865")
 	)
-	(hierarchical_label "RED_PWM_Internal"
-		(shape output)
-		(at 120.65 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b04c98c-b8d5-49e0-b845-866d9d694218")
-	)
 	(hierarchical_label "TEMP_OUT"
 		(shape input)
 		(at 88.9 80.01 180)
@@ -3241,17 +3200,6 @@
 			(justify left)
 		)
 		(uuid "49f46af8-e135-4395-bc38-901b27bda514")
-	)
-	(hierarchical_label "BLUE_PWM_Internal"
-		(shape output)
-		(at 120.65 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51f66b65-87b8-4c63-9b0e-f5bef8130aac")
 	)
 	(hierarchical_label "LeftPAN_PWM"
 		(shape output)
@@ -3341,7 +3289,7 @@
 		)
 		(uuid "94cc2db1-3f99-4685-9f98-a567a5961640")
 	)
-	(hierarchical_label "GREEN_PWM_StateDisplay"
+	(hierarchical_label "StateDisplay_PWM"
 		(shape output)
 		(at 120.65 77.47 0)
 		(effects
@@ -3352,7 +3300,7 @@
 		)
 		(uuid "a30321ea-8cf8-4450-9ac7-006440973e45")
 	)
-	(hierarchical_label "RED_PWM_StateDisplay"
+	(hierarchical_label "SparePWM1"
 		(shape output)
 		(at 120.65 72.39 0)
 		(effects
@@ -3385,7 +3333,7 @@
 		)
 		(uuid "b63b4f80-ac73-463e-821a-0a284249504d")
 	)
-	(hierarchical_label "BLUE_PWM_StateDisplay"
+	(hierarchical_label "InternalLighting_PWM"
 		(shape output)
 		(at 120.65 74.93 0)
 		(effects
@@ -3450,17 +3398,6 @@
 			(justify right)
 		)
 		(uuid "d98385b1-55bf-4e84-bf0c-5aa98ac51efd")
-	)
-	(hierarchical_label "GREEN_PWM_Internal"
-		(shape output)
-		(at 120.65 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc5c043f-72b0-43d8-9e32-6f4eceeedf73")
 	)
 	(hierarchical_label "BackPan_PWM"
 		(shape output)
@@ -4030,7 +3967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal"
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 217.805 48.26 90)
 			(hide yes)
 			(show_name no)
