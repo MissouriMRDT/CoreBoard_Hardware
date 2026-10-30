@@ -2769,6 +2769,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 69.85) (xy 119.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece21103-c639-4f4c-ae7d-93767a23dcc6")
+	)
+	(wire
+		(pts
 			(xy 120.65 74.93) (xy 116.84 74.93)
 		)
 		(stroke
@@ -3486,6 +3496,17 @@
 			(justify right)
 		)
 		(uuid "f92baac5-91a5-43ac-86bc-9a8438e3d988")
+	)
+	(hierarchical_label "RTRY6"
+		(shape input)
+		(at 119.38 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9b4077e-45ca-479d-a1d7-d9920c16aa27")
 	)
 	(symbol
 		(lib_id "MRDT_Shields:RoveNode_H5")
