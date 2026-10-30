@@ -768,7 +768,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 		(layer "F.Cu")
 		(uuid "06332b75-866c-49b5-848a-ac39364b9a6d")
-		(at 195.497056 29.647056)
+		(at 197.595713 25.89991)
 		(property "Reference" "U5"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -19354,7 +19354,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 		(layer "F.Cu")
 		(uuid "afd905d5-00af-4ed7-9817-7b97e1157cbc")
-		(at 197.697056 144.352944)
+		(at 197.489744 141.905056)
 		(property "Reference" "U6"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -22999,13 +22999,13 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 		(layer "F.Cu")
 		(uuid "cb611a6e-9f05-46b8-86e2-622be5940b7d")
-		(at 90.85 141.8)
+		(at 86.82671 141.797539)
 		(property "Reference" "U7"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "694ecd48-36e0-4b71-94a8-94e4f74e6fb6")
+			(uuid "ebb10d4a-70fc-4b6f-9625-69c06f0fe873")
 			(effects
 				(font
 					(size 1 1)
@@ -23017,7 +23017,7 @@
 			(at 0 -5.08 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a6deca7d-0148-4860-a964-98db2fb53dc2")
+			(uuid "bd212e98-4d3d-45e0-8c4d-6c2fa6a57f2d")
 			(effects
 				(font
 					(size 1 1)
@@ -23030,7 +23030,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ce2eff5-f10e-437d-81d1-aab4144f3b63")
+			(uuid "e809d39d-cf62-4fab-8a6c-8f517c3b11a4")
 			(effects
 				(font
 					(size 1 1)
@@ -23043,7 +23043,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76f20d17-9a7d-4db9-96bb-ca6aeb975a1f")
+			(uuid "7f5b045c-42bd-4b30-bd4b-336e1e0349ee")
 			(effects
 				(font
 					(size 1 1)
@@ -27570,7 +27570,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 		(layer "F.Cu")
 		(uuid "fdbc65c9-532e-4471-9fc8-1e62c66b7dec")
-		(at 87.3 26.6)
+		(at 86.85991 25.873487)
 		(property "Reference" "U8"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -27935,6 +27935,110 @@
 			)
 		)
 	)
+	(gr_line
+		(start 81.28 142.24038)
+		(end 81.286375 25.818302)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7bcf7ab2-b26b-4679-8535-2c059ae5b351")
+	)
+	(gr_arc
+		(start 81.286375 25.818302)
+		(mid 82.772662 22.083798)
+		(end 86.384392 20.32)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f7279500-2389-4461-a047-6f497b36e099")
+	)
+	(gr_line
+		(start 86.384392 20.32)
+		(end 198.0184 20.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "49e95d05-90e1-4c20-95c0-79291a908c9f")
+	)
+	(gr_arc
+		(start 86.77162 147.361581)
+		(mid 82.8548 145.6944)
+		(end 81.262629 141.746494)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "13c80c98-0048-49f1-84d6-24bca0fa105a")
+	)
+	(gr_arc
+		(start 197.650896 20.326375)
+		(mid 201.5744 21.9964)
+		(end 203.169287 25.951044)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "46b126e1-e579-4548-97d2-f2a5cc555b92")
+	)
+	(gr_line
+		(start 198.095349 147.32)
+		(end 86.77162 147.361581)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a5f4140c-b24b-47f9-ba89-86b413160dd8")
+	)
+	(gr_arc
+		(start 203.193625 141.821696)
+		(mid 201.5236 145.7452)
+		(end 197.568956 147.340087)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6421e41c-1062-4579-9574-cb3c024e2211")
+	)
+	(gr_line
+		(start 203.2 25.4)
+		(end 203.193625 141.821696)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4601d7ff-3d72-484d-a5bd-68969b254109")
+	)
+	(gr_line
+		(start 203.2 25.5016)
+		(end 203.2 25.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c711703e-6bf8-4cbb-ae43-6b88df724008")
+	)
+	(gr_line
+		(start 302.26 -30.48)
+		(end 302.26 -27.94)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e45adbc-03f5-4ba3-9c84-a01cb57f5a60")
+	)
 	(gr_text "PCB Editor"
 		(at 154.05 169.1 0)
 		(layer "B.Paste")
@@ -27950,6 +28054,12 @@
 		(size 1)
 		(layer "B.Paste")
 		(uuid "04b97a85-cc5a-4a1d-8b40-0fd27f444741")
+	)
+	(point
+		(at 83.82 5.08)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "396f715f-c44c-4f05-90cc-87d7b9e55e00")
 	)
 	(embedded_fonts no)
 	(embedded_files
