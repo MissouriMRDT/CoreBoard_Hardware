@@ -5585,7 +5585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Vertical"
 			(at 255.27 80.01 0)
 			(hide yes)
 			(show_name no)
