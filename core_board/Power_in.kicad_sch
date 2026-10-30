@@ -4223,6 +4223,36 @@
 		)
 		(uuid "ff05750f-e6a2-40fb-9b97-0c7bf075f3aa")
 	)
+	(label ""
+		(at 87.63 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28958db6-20f8-4878-97ca-aab4b7dfc63a")
+	)
+	(label "SW"
+		(at 127 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a15c44a3-6f2e-4b10-92f0-c09b6aba6289")
+	)
+	(label "BST"
+		(at 127 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9616075-b863-4d10-94d8-a5f5af89fd18")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 259.08 67.31 0)
