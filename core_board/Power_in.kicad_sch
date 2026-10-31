@@ -7107,7 +7107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.codaca.com/Private/pdf/CSBA1050.pdf"
 			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
