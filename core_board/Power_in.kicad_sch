@@ -4846,7 +4846,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1uF"
 			(at 127 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +4927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4.7k"
 			(at 153.67 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "30k"
 			(at 185.42 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6289,7 +6289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMSZ5240BT1G"
+		(property "Value" "PMEG4050EP,115"
 			(at 162.56 104.4574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6300,7 +6300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 160.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6312,7 +6312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf"
 			(at 160.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6613,7 +6613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "160k"
 			(at 185.42 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.01uF"
 			(at 153.67 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7595,7 +7595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "47uF"
 			(at 194.31 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8647,7 +8647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uF"
 			(at 100.33 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)

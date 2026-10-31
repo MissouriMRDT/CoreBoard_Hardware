@@ -1168,7 +1168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b09186d-0a08-4c23-b09a-3aef3de946ef")
-		(property "Reference" "THe"
+		(property "Reference" "THe1"
 			(at 142.24 99.3774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1232,7 +1232,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/77f19b6f-fa72-4932-9cd3-32a2305647f7"
-					(reference "THe")
+					(reference "THe1")
 					(unit 1)
 				)
 			)
