@@ -1287,7 +1287,7 @@
 				(justify left)
 			)
 		)
-		(pin "PanBack_LED" input
+		(pin "PanBack_LED" output
 			(at 149.86 34.29 180)
 			(uuid "6baaef50-b194-4785-a65b-299a21e01fab")
 			(effects
@@ -1297,7 +1297,7 @@
 				(justify left)
 			)
 		)
-		(pin "PanLeft_LED" input
+		(pin "PanLeft_LED" output
 			(at 149.86 36.83 180)
 			(uuid "26d33bc6-12af-4576-bee8-357398f185c0")
 			(effects
@@ -1307,7 +1307,7 @@
 				(justify left)
 			)
 		)
-		(pin "PanRight_LED" input
+		(pin "PanRight_LED" output
 			(at 149.86 39.37 180)
 			(uuid "dc90f2e1-cdb2-42fa-be84-2a8423f2cd06")
 			(effects
@@ -1327,7 +1327,7 @@
 				(justify left)
 			)
 		)
-		(pin "RTRY1" output
+		(pin "RTRY1" input
 			(at 149.86 59.69 180)
 			(uuid "928b1747-e60f-4e79-b724-41c185c6c7b9")
 			(effects
@@ -1337,7 +1337,7 @@
 				(justify left)
 			)
 		)
-		(pin "RTRY2" output
+		(pin "RTRY2" input
 			(at 149.86 57.15 180)
 			(uuid "34df9ef8-05e6-4a0a-9c45-fc7fc3c4dc9f")
 			(effects
@@ -1347,7 +1347,7 @@
 				(justify left)
 			)
 		)
-		(pin "RTRY4" output
+		(pin "RTRY4" input
 			(at 149.86 54.61 180)
 			(uuid "3c5550bc-d5a0-48b1-a721-caa216ef0695")
 			(effects
@@ -1357,7 +1357,7 @@
 				(justify left)
 			)
 		)
-		(pin "SMOCO_LED" input
+		(pin "SMOCO_LED" output
 			(at 149.86 41.91 180)
 			(uuid "bd4563ed-19f8-40ec-836b-6fe35eeb071d")
 			(effects
@@ -1367,7 +1367,7 @@
 				(justify left)
 			)
 		)
-		(pin "TiltBack_LED" input
+		(pin "TiltBack_LED" output
 			(at 149.86 44.45 180)
 			(uuid "7e0ac561-6450-4063-893b-234fe9d8bed2")
 			(effects
@@ -1377,7 +1377,7 @@
 				(justify left)
 			)
 		)
-		(pin "TiltLeft_LED" input
+		(pin "TiltLeft_LED" output
 			(at 149.86 31.75 180)
 			(uuid "566254d6-8ff2-41af-974a-47333cfa4187")
 			(effects
@@ -1387,7 +1387,7 @@
 				(justify left)
 			)
 		)
-		(pin "TiltRight_LED" input
+		(pin "TiltRight_LED" output
 			(at 149.86 29.21 180)
 			(uuid "34716ebe-4c0d-471f-a2f1-b0ea2973b0ae")
 			(effects
