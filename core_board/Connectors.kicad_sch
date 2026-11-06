@@ -3304,14 +3304,15 @@
 				)
 			)
 		)
-		(property "Value" "+7.5V"
-			(at 165.1 29.21 0)
+		(property "Value" "+6V"
+			(at 167.64 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4524,14 +4525,15 @@
 				)
 			)
 		)
-		(property "Value" "+7.5V"
-			(at 124.46 29.21 0)
+		(property "Value" "+6V"
+			(at 127 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5734,14 +5736,15 @@
 				)
 			)
 		)
-		(property "Value" "+7.5V"
-			(at 48.26 29.21 0)
+		(property "Value" "+6V"
+			(at 50.8 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6632,14 +6635,15 @@
 				)
 			)
 		)
-		(property "Value" "+7.5V"
-			(at 86.36 29.21 0)
+		(property "Value" "+6V"
+			(at 88.9 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

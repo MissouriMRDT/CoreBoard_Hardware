@@ -4617,7 +4617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "MRDT_Devices:SOD-123_ONS-L"
 			(at 33.02 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5967,7 +5967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "252K"
+		(property "Value" "196k"
 			(at 175.26 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7677,14 +7677,15 @@
 				)
 			)
 		)
-		(property "Value" "+7.5V"
-			(at 201.93 39.37 0)
+		(property "Value" "+6V"
+			(at 204.47 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
