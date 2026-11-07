@@ -2639,6 +2639,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 64.77) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1020cfe-9b61-4398-a8cf-645279b2225c")
+	)
+	(wire
+		(pts
 			(xy 121.92 39.37) (xy 116.84 39.37)
 		)
 		(stroke
@@ -3178,6 +3188,17 @@
 			(justify right)
 		)
 		(uuid "3555a708-3bfd-409c-8441-df44b8d34730")
+	)
+	(hierarchical_label "Gripper_lim_sw"
+		(shape input)
+		(at 120.65 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38851953-e085-40c9-8085-5d8a269419f2")
 	)
 	(hierarchical_label "electromagnet"
 		(shape output)
