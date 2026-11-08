@@ -2377,16 +2377,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 34.29) (xy 48.26 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069c2ee8-b0c4-4bec-baee-7b94fcf10521")
-	)
-	(wire
-		(pts
 			(xy 200.66 82.55) (xy 200.66 81.28)
 		)
 		(stroke
@@ -2657,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 44.45) (xy 48.26 46.99)
+			(xy 48.26 34.29) (xy 48.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2727,17 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 34.29) (xy 86.36 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae90afd-275b-4b23-a85f-51d412269dc5")
-	)
-	(wire
-		(pts
-			(xy 124.46 44.45) (xy 124.46 46.99)
+			(xy 124.46 34.29) (xy 124.46 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2767,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 44.45) (xy 165.1 46.99)
+			(xy 165.1 34.29) (xy 165.1 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2807,16 +2787,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 34.29) (xy 124.46 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79614023-3510-489b-983a-caba132b6b08")
-	)
-	(wire
-		(pts
 			(xy 88.9 170.18) (xy 88.9 180.34)
 		)
 		(stroke
@@ -2834,6 +2804,16 @@
 			(type default)
 		)
 		(uuid "81fded33-7c48-45f1-aa61-bf87ec5a33cf")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.29) (xy 86.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86666c94-4c54-4e58-b5dc-7e63fb343dd9")
 	)
 	(wire
 		(pts
@@ -3227,16 +3207,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 34.29) (xy 165.1 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21a993f-7a1d-45cd-b7ba-4ba636780610")
-	)
-	(wire
-		(pts
 			(xy 134.62 111.76) (xy 144.78 111.76)
 		)
 		(stroke
@@ -3354,16 +3324,6 @@
 			(type default)
 		)
 		(uuid "f68e428a-6c67-45e4-8f31-1f9a7298d773")
-	)
-	(wire
-		(pts
-			(xy 86.36 44.45) (xy 86.36 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7769d5d-7a77-4595-bfee-b2fc13b91a69")
 	)
 	(wire
 		(pts
@@ -4253,88 +4213,6 @@
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 124.46 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "360d6999-8e36-4d4d-9985-ac77cad34563")
-		(property "Reference" "R38"
-			(at 127 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220"
-			(at 127 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.444 40.386 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 124.46 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "013ad826-6eef-406a-abce-1285711c2cbd")
-		)
-		(pin "2"
-			(uuid "439de98d-aa93-4957-9b4b-2977810e65b1")
-		)
-		(instances
-			(project "core_board"
-				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
-					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6359,88 +6237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 86.36 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96a88c4f-1aea-4eb8-8f51-6e8c6e6ed5af")
-		(property "Reference" "R36"
-			(at 88.9 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220"
-			(at 88.9 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 85.344 40.386 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 86.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23ea43c0-0a4f-4fa1-b4d4-6c60e8b2d6bd")
-		)
-		(pin "2"
-			(uuid "41f4ae8f-1a61-4754-9e29-e08974748e7d")
-		)
-		(instances
-			(project "core_board"
-				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 198.12 87.63 0)
 		(unit 1)
@@ -7341,88 +7137,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfe98502-fb04-435d-b389-b684050418e5")
-		(property "Reference" "R42"
-			(at 167.64 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220"
-			(at 167.64 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 164.084 40.386 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 165.1 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "abff0268-f8e4-492f-af03-d7a4f047e01e")
-		)
-		(pin "2"
-			(uuid "f392c39b-ffa7-4731-930c-58379f563f41")
-		)
-		(instances
-			(project "core_board"
-				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 190.5 92.71 180)
 		(unit 1)
 		(body_style 1)
@@ -7598,88 +7312,6 @@
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 48.26 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c503363b-e182-4bdf-a363-a7e342b0d6c1")
-		(property "Reference" "R32Serv1"
-			(at 50.8 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220"
-			(at 50.8 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 47.244 40.386 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 48.26 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7fc3d0d5-2f7f-48e7-89f1-4c3c63bdb340")
-		)
-		(pin "2"
-			(uuid "59fc78f7-aa1d-4a1e-90dd-e72f5b839716")
-		)
-		(instances
-			(project "core_board"
-				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
-					(reference "R32Serv1")
 					(unit 1)
 				)
 			)

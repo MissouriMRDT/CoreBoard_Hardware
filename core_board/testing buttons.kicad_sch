@@ -5987,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 87.63 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7779,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 52.07 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10364,7 +10364,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 85.09 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +11876,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 118.11 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
