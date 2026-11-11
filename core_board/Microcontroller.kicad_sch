@@ -2160,12 +2160,24 @@
 		(uuid "d514061d-96c6-41b7-99ed-12b2c1260a2b")
 	)
 	(no_connect
+		(at 116.84 67.31)
+		(uuid "07084fe6-ce95-44a5-b685-684f99ab5504")
+	)
+	(no_connect
 		(at 224.79 58.42)
 		(uuid "6f2e8e80-4ceb-49e7-909f-c4a013be2fc7")
 	)
 	(no_connect
+		(at 116.84 69.85)
+		(uuid "90b93332-cd42-413c-b1a8-34ffc72dfa03")
+	)
+	(no_connect
 		(at 92.71 63.5)
 		(uuid "9e87ad1e-4778-4ada-accb-16d8289150ce")
+	)
+	(no_connect
+		(at 116.84 54.61)
+		(uuid "dae9d7d0-f84b-4d0d-b5b1-a19d39cd1ae5")
 	)
 	(wire
 		(pts
@@ -2346,16 +2358,6 @@
 			(type default)
 		)
 		(uuid "55fa55b1-6f97-43a4-94f7-62b379dc9ebf")
-	)
-	(wire
-		(pts
-			(xy 120.65 54.61) (xy 116.84 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ebc6494-1b45-46ad-8999-1a208f3160df")
 	)
 	(wire
 		(pts
@@ -3485,17 +3487,6 @@
 			(justify right)
 		)
 		(uuid "ea732b40-e8b1-4442-9f8f-a64575044f06")
-	)
-	(hierarchical_label "Direction_Switch"
-		(shape input)
-		(at 120.65 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0286b06-0a1d-48b2-ad61-b57ad1182726")
 	)
 	(hierarchical_label "Fan1PWM"
 		(shape output)

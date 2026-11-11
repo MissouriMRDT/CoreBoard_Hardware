@@ -1623,6 +1623,16 @@
 				(justify left)
 			)
 		)
+		(pin "Gripper_lim_sw" output
+			(at 149.86 143.51 180)
+			(uuid "5d076350-ce9f-495f-8b2c-253ee29ddc6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
@@ -1982,6 +1992,16 @@
 		(pin "StateDisplay_PWM" output
 			(at 144.78 135.89 0)
 			(uuid "dd1072ef-fad1-4226-8752-00a93cc3e263")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Gripper_lim_sw" input
+			(at 144.78 143.51 0)
+			(uuid "f7781f57-06ff-41e3-9e64-7290c2494e90")
 			(effects
 				(font
 					(size 1.27 1.27)
