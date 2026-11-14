@@ -317,16 +317,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 148.59) (xy 149.86 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c9f9721-d135-45a2-a63e-e48177c8626c")
-	)
-	(wire
-		(pts
 			(xy 144.78 133.35) (xy 149.86 133.35)
 		)
 		(stroke
@@ -374,16 +364,6 @@
 			(type default)
 		)
 		(uuid "69693d1f-de06-439e-8830-2350e875432c")
-	)
-	(wire
-		(pts
-			(xy 144.78 146.05) (xy 149.86 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba184b7-ff5e-41a5-a549-a68b00d1f783")
 	)
 	(wire
 		(pts
@@ -554,16 +534,6 @@
 			(type default)
 		)
 		(uuid "d0739d32-c5db-4988-85bf-b8b979366607")
-	)
-	(wire
-		(pts
-			(xy 144.78 49.53) (xy 149.86 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0584a10-4e48-4d48-bfc4-9ca011fdc6fa")
 	)
 	(wire
 		(pts
@@ -1407,16 +1377,6 @@
 				(justify left)
 			)
 		)
-		(pin "Direction_Switch" output
-			(at 149.86 49.53 180)
-			(uuid "36c0d2e2-c7df-4d10-a512-cc08b0501511")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
@@ -1872,16 +1832,6 @@
 		(pin "Up" input
 			(at 144.78 22.86 0)
 			(uuid "d38edfa6-d575-4735-a21c-97aa7f0ba55d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Direction_Switch" input
-			(at 144.78 49.53 0)
-			(uuid "9b23e1eb-74f3-4390-91d8-d6237d70a3ab")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2233,13 +2233,23 @@
 	)
 	(text "SMOCO"
 		(exclude_from_sim no)
-		(at 235.712 54.356 0)
+		(at 247.396 55.88 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 			)
 		)
 		(uuid "37f41e7a-ab80-4577-b039-e948e1bf5294")
+	)
+	(text "Electromagnet"
+		(exclude_from_sim no)
+		(at 201.168 65.278 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "52945aa4-320d-4d0e-926e-054df5c60b1a")
 	)
 	(text "FAN"
 		(exclude_from_sim no)
@@ -2253,7 +2263,7 @@
 	)
 	(text "RGB LEDs"
 		(exclude_from_sim no)
-		(at 90.17 139.192 0)
+		(at 91.186 138.938 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3444,16 +3454,6 @@
 			(type default)
 		)
 		(uuid "ffb1b96b-09ed-479e-a6e4-9b5ffc366ff2")
-	)
-	(label "Electromagnet"
-		(at 194.31 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f175277c-c9c0-42f6-a735-0db9af4e2116")
 	)
 	(hierarchical_label "FanPWM3"
 		(shape input)
@@ -7090,7 +7090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0768290102/7604320"
 			(at 255.27 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8321,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0768290102/7604320"
 			(at 210.82 81.28 0)
 			(hide yes)
 			(show_name no)

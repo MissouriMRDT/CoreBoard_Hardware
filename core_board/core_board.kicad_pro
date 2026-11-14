@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -537,8 +534,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -558,7 +555,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "C:\\Users\\compt\\OneDrive\\Documents\\core_board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -828,7 +825,7 @@
         "uuid": "e01d6047-065c-44c8-9643-8ab57e6ffae6"
       }
     ],
-    "used_designators": "#PWR1-140,C1-11,D1-37,GreenLED1-3,H1-4,J1-16,L1-2,Q1-23,R1-70,S1-2,SW1-7,TH1,U1-10",
+    "used_designators": "#PWR1-140,D1-37,L1-2,C1-11,TH1,GreenLED1-3,H1-4,J1-16,Q1-23,R1-70,S1-2,SW1-7,U1-10,+24V1,+5V1,+6V1",
     "variants": []
   },
   "sheets": [

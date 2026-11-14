@@ -4483,7 +4483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18ccc787-be70-409a-b33b-0bda6a9b4682")
-		(property "Reference" "GreenLED2"
+		(property "Reference" "D23"
 			(at 249.2375 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,7 +4556,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/99860962-d8ec-450a-a69d-1c445546f8f2"
-					(reference "GreenLED2")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -7745,7 +7745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 191.77 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8201,7 +8201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef06d2b0-cd04-4fae-ad21-9a80c16318d9")
-		(property "Reference" "GreenLED1"
+		(property "Reference" "D24"
 			(at 249.2375 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8274,7 +8274,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/99860962-d8ec-450a-a69d-1c445546f8f2"
-					(reference "GreenLED1")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -8480,7 +8480,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200Q_AP63201Q_AP63203Q_AP63205Q.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP63301WU-7/10491607"
 			(at 107.95 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +8858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f945e65b-d302-4d61-a358-7d426c7ec49f")
-		(property "Reference" "GreenLED3"
+		(property "Reference" "D22"
 			(at 249.2375 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,7 +8931,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/99860962-d8ec-450a-a69d-1c445546f8f2"
-					(reference "GreenLED3")
+					(reference "D22")
 					(unit 1)
 				)
 			)
