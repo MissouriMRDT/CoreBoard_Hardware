@@ -4362,16 +4362,6 @@
 		)
 		(uuid "ff05750f-e6a2-40fb-9b97-0c7bf075f3aa")
 	)
-	(label ""
-		(at 87.63 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28958db6-20f8-4878-97ca-aab4b7dfc63a")
-	)
 	(label "SW"
 		(at 127 44.45 0)
 		(effects
@@ -4493,7 +4483,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 249.2375 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6670,7 +6660,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 139.7 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,7 +8201,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 249.2375 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8858,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 249.2375 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)

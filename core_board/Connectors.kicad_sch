@@ -5204,7 +5204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "577aa565-5fcf-486f-a96e-01a4ecb46279")
-		(property "Reference" "J4Serv1"
+		(property "Reference" "J17"
 			(at 52.832 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,7 +5274,7 @@
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6/1e3ab302-e360-416c-88e3-133e033fb1f0"
-					(reference "J4Serv1")
+					(reference "J17")
 					(unit 1)
 				)
 			)

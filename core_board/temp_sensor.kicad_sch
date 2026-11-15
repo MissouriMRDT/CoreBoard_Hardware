@@ -1260,7 +1260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 121.92 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1342,7 +1342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kohm"
+		(property "Value" "10k"
 			(at 142.24 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
