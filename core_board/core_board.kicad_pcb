@@ -12036,7 +12036,7 @@
 		(descr "JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J14"
-			(at 5.287944 0.325456 0)
+			(at -3.445 -0.9486 0)
 			(layer "F.SilkS")
 			(uuid "c7e2f889-e9f7-4217-9e94-39f3781979f3")
 			(effects
@@ -32048,7 +32048,7 @@
 		(descr "JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J11"
-			(at 5.338744 0.452456 0)
+			(at -3.191 -1.4566 0)
 			(layer "F.SilkS")
 			(uuid "0595c492-47b0-4243-a78f-47b395813920")
 			(effects
@@ -43162,7 +43162,7 @@
 		)
 	)
 	(gr_text "Spare Gimbal"
-		(at 162.179 54.991 0)
+		(at 162.2044 54.5846 0)
 		(layer "F.SilkS")
 		(uuid "09c667a9-c460-4487-8f92-39a13f11df62")
 		(effects
@@ -43178,6 +43178,19 @@
 		(at 162.306 57.15 0)
 		(layer "F.SilkS")
 		(uuid "5f4c1315-02b0-435b-9ab9-fe90e4a21a1d")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.16256)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SMOCO CAN\n"
+		(at 175.1838 52.6542 0)
+		(layer "F.SilkS")
+		(uuid "be3f2079-e35a-4ef2-b6e9-d0c015f0c90a")
 		(effects
 			(font
 				(size 0.8128 0.8128)
