@@ -307,6 +307,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3726b66d-fb08-4883-8a92-523bbc503493")
+	)
+	(wire
+		(pts
 			(xy 240.03 63.5) (xy 240.03 66.04)
 		)
 		(stroke
@@ -504,6 +514,16 @@
 			(type default)
 		)
 		(uuid "c89a5ff4-9440-48c8-a7a1-4e37b6a1612c")
+	)
+	(wire
+		(pts
+			(xy 144.78 115.57) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c934d7a4-1b79-412d-87db-1caf5d46c665")
 	)
 	(wire
 		(pts
@@ -1593,6 +1613,26 @@
 				(justify left)
 			)
 		)
+		(pin "SMOCO_CAN_HI" bidirectional
+			(at 149.86 115.57 180)
+			(uuid "2d2ba9f9-22da-4579-85d4-25e4b165481d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMOCO_CAN_LO" bidirectional
+			(at 149.86 118.11 180)
+			(uuid "4667c7a2-3f78-4f53-b413-0e5ef3faf1b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "core_board"
 				(path "/e01d6047-065c-44c8-9643-8ab57e6ffae6"
@@ -1952,6 +1992,26 @@
 		(pin "Gripper_lim_sw" input
 			(at 144.78 143.51 0)
 			(uuid "f7781f57-06ff-41e3-9e64-7290c2494e90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMOCO_CAN_HI" bidirectional
+			(at 144.78 115.57 0)
+			(uuid "8c07ae43-2819-4234-8495-288e2330fe58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMOCO_CAN_LO" bidirectional
+			(at 144.78 118.11 0)
+			(uuid "148a3a48-52b1-49b7-9f47-a44eafdb6ce4")
 			(effects
 				(font
 					(size 1.27 1.27)
