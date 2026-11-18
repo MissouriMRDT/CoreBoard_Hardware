@@ -825,7 +825,7 @@
         "uuid": "e01d6047-065c-44c8-9643-8ab57e6ffae6"
       }
     ],
-    "used_designators": "L1-2,C1-11,SW1-7,U1-10,D1-37,#PWR1-140,Q1-23,TH1,GreenLED1-3,+6V1,J1-16,J18-19,H1-4,R1-70,+24V1,S1-2,+5V1",
+    "used_designators": "L1-2,D1-37,#PWR1-140,C1-11,SW1-7,U1-10,Q1-23,TH1,GreenLED1-3,+6V1,J1-16,J18-19,H1-4,R1-70,+24V1,S1-2,+5V1",
     "variants": []
   },
   "sheets": [

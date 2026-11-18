@@ -4735,7 +4735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMSZ5240BT1G"
+		(property "Value" "SZMMSZ5240BT1G"
 			(at 35.56 46.0374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SZMMSZ5240BT1G/3063362?s=N4IgTCBcDaILJwMoC0CsYAsAGAQgFQEYBxEAXQF8g"
 			(at 33.02 41.91 0)
 			(hide yes)
 			(show_name no)
